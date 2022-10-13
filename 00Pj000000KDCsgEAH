@@ -1,0 +1,16 @@
+eBay Seller ID: 2011mastercraft190 (E1083142443001-USD),,,,,,,
+Report Name: Invoice Detail,,,,,,,
+Invoice Number: 073115-10831424430011,,,,,,,
+Time period: Jul-01-15 00:00:00 PDT to Jul-31-15 23:59:59 PDT,,,,,,,
+,,,,,,,
+"Note: The line item total may not match the invoice total because of rounding the Final Value Fees. This is for display purposes only. The exact amount is used to calculate the total balance. To correct this, we have included a Rounding Adjustment amount. See http://pages.ebay.com/help/account/rounding-account-balance.html for more information.",,,,,,,
+,,,,,,,
+Date,Title,Item,Fee Type,Amount,VIN/Serial Number,ReceivedTopRatedDiscount,Promotional Savings
+Jul-17-15 01:41:35 PDT,New Roland MPX-60 Print Cartridge Head,1.71861E+11,Insertion Fee;Promotional Rate,,,,$0.30 
+Jul-17-15 01:41:35 PDT,New Roland MPX-60 Print Cartridge Head,1.71861E+11,Item Subtitle Fee,$0.50 ,,,
+Jul-18-15 13:00:51 PDT,Gravograph Propen Tag Cube,1.71863E+11,Buy It Now Listing Fee;Promotional Rate,,,,$0.25 
+Jul-18-15 13:00:51 PDT,Gravograph Propen Tag Cube,1.71863E+11,Insertion Fee;Promotional Rate,,,,$0.30 
+Jul-18-15 13:00:51 PDT,Gravograph Propen Tag Cube,1.71863E+11,Reserve Price Listing Fee,$72.00 ,,,
+Jul-18-15 13:04:28 PDT,Gravograph Propen Tag Cube;3 day duration fee,1.71863E+11,Special Duration Fee,$1.00 ,,,
+N/A,Last Invoice,N/A,N/A,$0.00 ,,,
+N/A,Rounding Adjustment,N/A,N/A,$0.00 ,,,
