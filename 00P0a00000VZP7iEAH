@@ -1,0 +1,2969 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <title>D&amp;B Supplier Qualifier Report: JORLINK USA, INC.</title><script type="text/javascript" language="Javascript1.1">
+var sessionid = "123456789";
+var allSectionsLoaded = false;
+var retries = 0;
+var helpPath = "https://www.dnb.com/sir/help/";
+var imagePath = "https://www.dnb.com/sir/images/";
+var stylesheetPath = "https://www.dnb.com/sir/stylesheets/";
+var isInfobot="true";
+// Array that holds the base names of all the layers and images used
+var layerarray = new Array("overview","histops","prodsrv","payments","finance","public");
+var namearray = new Array("OVERVIEW","HISTORY & OPERATIONS","PRODUCTS & SERVICES","PAYMENTS","FINANCE","PUBLIC FILINGS");
+var 	requestSubscriber = "263159923";
+var requestAttention = "Name1";
+var dunsCase = "048447424";
+var parentDunsCase = "000000000";
+var companyName = "JORLINK USA, INC.";
+var companyAddress = "3714 Alliance Dr Ste 100";
+var companyCity = "Greensboro";
+var companyState = "NC";
+var companyZip = "27407";
+var companyPhone = "336 288-1613";
+var deliveryDirectory = escape("/delivery/");
+var productDirectory = escape("/");
+var productFilename = "report.output.html";
+var emailFilePath = "";
+var printFriendlyURL = "/delivery//report.output.html.print.htm";
+var textOnlyURL = "/delivery//report.output.html.text.htm";
+var showBusinessSummary = true;
+var showSpecialEvents = false;
+var showSummaryAnalysis = true;
+var showFinancialStress= true;
+var showRiskAnalysis = true;
+var showHistory = true;
+var showBusinessRegistration= true;
+var showOperations = true;
+var showFamilyLinkage = false;
+var showUNSPSC = true;
+var showSICandNAICS = true;
+var showStatementUpdate = false;
+var showUpdate = false;
+var showUpdateExport = false;
+var showFinance = false;
+var showFinanceNav = true;
+var showComparative = false
+var showKeyBizRatios = false;
+var showBanking = false;
+
+// GAR SIR-SQR Enhancements Start - changes for SQR side bar link 
+var showDiversity = true;
+// GAR SIR-SQR Enhancements End - changes for SQR side bar link 
+
+// SIR-SQR Enhancements - changes for SQR side bar link 
+var showFinanceInfo = false;
+var showFinanceDetails = false;
+var showHistoryINTL = false;
+var showOperationsINTL= false;
+// SIR-SQR Enhancements - end of changes for SQR side bar link 
+
+var showPaydex = true;
+var showPaymentSummary = true;
+var showPaymentDetails = true;
+var showPaymentTrend = true;
+
+// SIR-SQR Enhancements - changes for SQR side bar link 
+var showPaymentInfo = false;
+// SIR-SQR Enhancements - end of changes for SQR side bar link 
+
+var showBankruptcy = false;
+var showJudgments = false;
+var showBankruptcy = false;
+var showSuits = false;
+var showLiens = false;
+var showUCCs = true;
+var showPRInfo = false;
+var showGovtActivity = true;
+var archiveURL = "";
+var searchURL = "";
+var emailURL = "";
+var showPar=false;
+var parUpsellURL="";
+var showComp=false;
+var compUpsellURL="";
+var showHighrisk=false;
+var highriskUpsellURL="";
+var showIndustryNorms=true;
+var industryNormsUpsellURL="";
+var showContinuousMonitoring=true;
+var contMonitoringUpsellURL="";
+var showIntroAd=false;
+var cmPopup = null;
+var showCMCampaign = 'false';
+var stockTicker="";
+var tabarray = new Array(); // Associative array to hold image locations for rollovers
+// The following lines populate the associative array with the rollover image sources
+tabarray["overviewoff"] 	= "https://www.dnb.com/sir/images/t_overview_off3.gif";
+tabarray["overviewroll"]	= "https://www.dnb.com/sir/images/t_overview_roll3.gif";
+tabarray["histopsoff"]		= "https://www.dnb.com/sir/images/t_histops_off3.gif";
+tabarray["histopsroll"]		= "https://www.dnb.com/sir/images/t_histops_roll3.gif";
+tabarray["prodsrvoff"]		= "https://www.dnb.com/sir/images/t_prodsrv_off3.gif";
+tabarray["prodsrvroll"]	= "https://www.dnb.com/sir/images/t_prodsrv_roll3.gif";
+tabarray["paymentsoff"]		= "https://www.dnb.com/sir/images/t_payments_off3.gif";
+tabarray["paymentsroll"]	= "https://www.dnb.com/sir/images/t_payments_roll3.gif";
+tabarray["financeoff"]		= "https://www.dnb.com/sir/images/t_finance_off3.gif";
+tabarray["financeroll"]		= "https://www.dnb.com/sir/images/t_finance_roll3.gif";
+tabarray["publicoff"]		= "https://www.dnb.com/sir/images/t_public_off3.gif";
+tabarray["publicroll"]		= "https://www.dnb.com/sir/images/t_public_roll3.gif";
+var homePageAddresses=new Array();
+var homePages=new Array();
+var otherURLAddresses=new Array();
+var otherURLs=new Array();
+	homePageAddresses[0]='http://www.jorlink.com/';
+		homePages[0]='<a href="javascript:openWebsite(homePageAddresses[0],&#34;1&#34;);">Business\'s Web Site</a>';
+	
+function init() {
+	allSectionsLoaded = true;
+	displayIt('overview');
+	// setIntroTimer(introURL);
+}
+// ** SIDEBAR **
+function buildSidebar(tab) {
+	var thisSidebar = layerarray[tab] + "Sidebar";
+	var theDoc = document;
+	var theBiz = " Business's";
+	if (isNav) {
+		theDoc = document.layers[layerarray[tab]].document.layers[thisSidebar].document;
+		theBiz = '<br/><img src="https://www.dnb.com/sir/images/spacer.gif" border="0" height="1" width="7"/>Business\'s ';
+	}
+	// column definition row (also yellow filler above OVERVIEW portion)
+	theDoc.write('<tr><td width="5" bgcolor="white" height="15">&nbsp;</td><td width="130" bgcolor="white">&nbsp;</td><td bgcolor="#003366" width="1"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" width="1" height="1" border="0"/></td></tr><tr><td colspan="3" bgcolor="#003366" height="1"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" width="1" height="1"/></td></tr>');
+	// OVERVIEW SECTION
+	BeginNavBarTab(theDoc,0, tab);
+	if (showBusinessSummary)
+		NavBarLink(theDoc,0, tab, 'Business Information');
+	if (showPaydex)
+		NavBarLink(theDoc,0,tab,'D&B PAYDEX&reg;','DBPAYDEX');
+	if (showSummaryAnalysis)
+		NavBarLink(theDoc,0, tab, 'Summary Analysis');
+	if (showRiskAnalysis)
+		NavBarLink(theDoc,0,tab, 'Risk Score Analysis');
+	//if (showFinancialStress)
+	//	NavBarLink(theDoc,0,tab, 'Probability of Failure');
+	// GAR SIR-SQR Enhancements Start - changes for SQR side bar link 
+	
+			
+		
+	             	if (showFinancialStress)
+			NavBarLink(theDoc,0,tab, 'Probability of Ceased Operations/Becoming Inactive');
+	             		
+	if (showDiversity)
+		NavBarLink(theDoc,0, tab, 'Diversity');
+	// GAR SIR-SQR Enhancements End - changes for SQR side bar link 
+	if (showSpecialEvents)
+		NavBarLink(theDoc,0, tab, 'Special Events');
+	NavBarLink(theDoc,0,tab, 'Customer Service');
+	EndNavBarTab(theDoc,0, tab);
+	
+	// HISTORY AND OPERATIONS SECTION
+	BeginNavBarTab(theDoc,1, tab);
+	if (showHistory)
+		NavBarLink(theDoc,1, tab, 'History');
+	if (showHistoryINTL)
+		NavBarLink(theDoc,1, tab, 'History');
+	if (showBusinessRegistration)
+		NavBarLink(theDoc,1, tab, 'Business Registration');
+	if (showOperations)
+		NavBarLink(theDoc,1, tab, 'Operations');
+	if (showOperationsINTL)
+		NavBarLink(theDoc,1, tab, 'Operation');
+		
+	if (showFamilyLinkage)
+		NavBarLink(theDoc,1, tab, 'Family Linkage');
+	EndNavBarTab(theDoc,1, tab);
+	
+	// PRODUCTS AND SERVICES SECTION
+	BeginNavBarTab(theDoc,2, tab);
+	if (showUNSPSC)
+		NavBarLink(theDoc,2, tab, 'UNSPSC');
+	if (showSICandNAICS) {
+                                        
+		NavBarLink(theDoc,2, tab, 'NAICS');
+                                            
+                                        
+		NavBarLink(theDoc,2, tab, 'SIC');
+	}
+	EndNavBarTab(theDoc,2, tab);
+	
+	// PAYMENTS SECTION
+	BeginNavBarTab(theDoc,3, tab);
+	if (showPaydex)
+		NavBarLink(theDoc,3, tab, 'D&B PAYDEX');
+	if (showPaymentSummary)
+		NavBarLink(theDoc,3, tab, 'Payment Summary');
+	if (showPaymentDetails)
+		NavBarLink(theDoc,3, tab, 'Payment Details');
+	if (showPaymentTrend)
+		NavBarLink(theDoc,3, tab, 'Payment Trends');	
+	// SIR-SQR Enhancements - changes for SQR side bar link 
+	if (showPaymentInfo)
+		NavBarLink(theDoc,3, tab, 'Payment Information');
+	// SIR-SQR Enhancements - end of changes for SQR side bar link 
+	EndNavBarTab(theDoc,3, tab);
+
+	// BANKING AND FINANCE SECTION
+	
+		
+		BeginNavBarTab(theDoc,4, tab);
+			if (showStatementUpdate)
+				NavBarLink(theDoc,4, tab, 'Statement Update');
+			if (showUpdate)
+				NavBarLink(theDoc,4, tab, 'Update');
+			if (showFinanceNav)
+				NavBarLink(theDoc,4, tab, 'Finance');
+			if (showKeyBizRatios)
+				NavBarLink(theDoc,4, tab, 'Key Business Ratios');
+		
+			
+			if (showFinanceInfo)
+				NavBarLink(theDoc,4, tab, 'Financial Information');
+			
+		EndNavBarTab(theDoc,4, tab);
+		
+	
+	// PUBLIC FILINGS SECTION
+	
+	
+	
+		
+	BeginNavBarTab(theDoc,5, tab);
+	if (showBankruptcy)
+		NavBarLink(theDoc,5, tab, 'Bankruptcy Filings');
+	if (showJudgments)
+		NavBarLink(theDoc,5, tab, 'Judgments');
+	if (showSuits)
+		NavBarLink(theDoc,5, tab, 'Suits');
+	if (showLiens)
+		NavBarLink(theDoc,5, tab, 'Liens');
+	if (showUCCs)
+		NavBarLink(theDoc,5, tab, 'UCC Filings');
+	if (showPRInfo)
+		NavBarLink(theDoc,5, tab, 'PR Info');
+	if (showGovtActivity)
+		NavBarLink(theDoc,5, tab, 'Government Activity');
+	EndNavBarTab(theDoc,5, tab);
+	
+	
+	theDoc.write('<tr><td colspan="3" bgcolor="#003366" height="1"><img src="' + imagePath + 'pixel_003366.gif" width="1" height="1"/></td></tr>');
+
+
+}
+
+function BeginNavBarTab(theDoc,tab, activeTab)
+{
+	if (tab == activeTab)
+	{
+		theDoc.write('<tr><td class="whiteback">&nbsp;</td><td class="layertitle">',namearray[tab],'</td><td bgcolor="#cccccc"><img src="' + imagePath + 'pixel_CCCCCC.gif" height="1" width="1"/></td></tr><tr><td colspan="3" bgcolor="#cccccc" height="1"><img src="' + imagePath + 'pixel_CCCCCC.gif" width="1" height="1"/></td></tr>');
+	}
+	else
+	{
+		theDoc.write('<tr><td class="titleblue">&nbsp;</td><td class="titleblue">',namearray[tab],'</td><td bgcolor="#003366"><img src="' + imagePath + 'pixel_003366.gif" height="1" width="1"/></td></tr>');
+	}
+}
+
+function EndNavBarTab(theDoc,tab, activeTab)
+{
+	if (tab == activeTab)
+	{
+		theDoc.write('<tr><td colspan="3" class="layerbottom" height="10">&nbsp;</td></tr>');
+	}
+	else
+	{
+		theDoc.write('<tr><td class="lightbluebottom" colspan="2" height="10">&nbsp;</td><td bgcolor="#003366"><img src="' + imagePath + 'pixel_003366.gif" height="1" width="1"/></td></tr>');
+	}
+}
+
+function NavBarLink(theDoc,tab, activeTab, section, sectionAnchor)
+{
+	if (sectionAnchor == null) sectionAnchor = section;
+	anchorName = '';
+	for (i = 0; i < sectionAnchor.length; i++) {
+		c = sectionAnchor.charAt(i);
+		if (c == ' ') c = '_';
+		anchorName += c;
+	}
+	html = '<tr><td class="';
+	if (tab == activeTab)
+		html += 'whiteback';
+	else
+		html += 'lightblue';
+	html += '">&nbsp;</td><td class="';
+	if (tab == activeTab)
+		html += 'layerlinks';
+	else
+		html += 'lightblue';
+	html += '"><img src="' + imagePath;
+	if (tab == activeTab)
+		html += 'arrow_FFCC00';
+	else
+		html += 'square_FFFFFF';
+	html += '.gif" align="middle" border="0"/>&nbsp;';
+//	html += '<a href="#' + anchorName + '"'
+	html += '<a href="#' + anchorName + '" class="sidebarLink"'
+	if (tab != activeTab) {
+		html += ' onclick="return showtab(\'' + layerarray[tab] + '\');"';
+	}
+	html += '>' + section + '</a></td><td class="';
+	if (tab == activeTab) {
+		html += 'whiteback';
+	} else {
+		html += 'blueback';
+	}
+	html += '"><img src="' + imagePath + 'trans.gif" height="1" width="1"/></td></tr>';
+	theDoc.write(html);
+}
+</script><script type="text/javascript" language="Javascript1.1" src="https://www.dnb.com/sir/scripts/NumberFormat101.js" charset="ISO-8859-1"></script><script type="text/javascript" language="Javascript1.1" src="https://www.dnb.com/sir/scripts/sir.js" charset="ISO-8859-1"></script><script language="Javascript1.1" src="/coremetrics/v40/eluminate.js"></script><script language="Javascript1.1" src="/coremetrics/v40/techprops.js"></script><script language="Javascript1.1" src="/coremetrics/v40/cmdatatagutils.js"></script><link rel="stylesheet" href="https://www.dnb.com/sir/stylesheets/sir_ns4.css" type="text/css"><style type="text/css"> 
+@import url(https://www.dnb.com/sir/stylesheets/sir_ie.css); /*IE and NN6x styles*/
+</style><link rel="stylesheet" href="https://www.dnb.com/sir/stylesheets/sir-20030125.css" type="text/css">
+   </head>
+   <body marginwidth="0" leftmargin="0" marginheight="0" topmargin="0"><a name="TOP"></a><div class="header">
+         <table class="yellowback" width="788" height="165" border="0" cellspacing="0" cellpadding="0">
+            <tr valign="top">
+               <td width="151" align="center"><img alt="" src="https://www.dnb.com/sir/images/spacer.gif" height="10" width="1"><br><a href="http://www.dnb.com"><img src="https://www.dnb.com/sir/images/dnb_web_signature.gif" alt="D&amp;B: Decide with Confidence" border="0" name="dnb_logo" height="120px" width="100px"></a><br><br></td>
+               <td width="622" align="right" height="147">
+                  <table width="622" border="0" cellspacing="0" cellpadding="0">
+                     <tr class="blueback" valign="middle">
+                        <td class="yellowback" width="62" height="32" align="right"><img alt="" src="https://www.dnb.com/sir/images/corner.gif"></td>
+                        <td class="leftPad5" width="442" align="left"><span class="titleSuffix">Supplier Qualifier Report</span></td>
+                        <td width="118" align="right">&nbsp;</td>
+                     </tr>
+                     <tr valign="top">
+                        <td>&nbsp;</td>
+                        <td class="leftTopPad5"><script type="text/javascript" language="Javascript1.1">
+                           	formatCompanyName("JORLINK USA, INC.");
+                           </script><br><b>D-U-N-S&reg; Number 
+                              											04-844-7424</b><script>if (!isNav) document.write('<br><img src="https://www.dnb.com/sir/images/trans.gif" height="5">');</script><table width="95%" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                 <td><span class="topCopyright">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</span></td>
+                              </tr>
+                           </table>
+                           <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                 <td class="font11">ATTN: <b>Name1</b></td>
+                                 <td class="topReportDate"><br>Report Printed: NOV 21 2017&nbsp;&nbsp;&nbsp;
+                                 </td>
+                              </tr>
+                           </table>
+                           <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                 <td class="topReportDate"><b>In Date</b></td>
+                                 <td width="27%">&nbsp;</td>
+                              </tr>
+                           </table>
+                        </td>
+                        <td class="headerLinks" valign="top" width="135" align="center" height="115"><img src="https://www.dnb.com/sir/images/trans.gif" border="0" width="1" height="3"><br><a href="javascript:printerFriendly(true)" class="discreteLink"><img src="https://www.dnb.com/sir/images/btn_printentire.gif" alt="Print Full Report" border="0"></a><br><img src="https://www.dnb.com/sir/images/trans.gif" border="0" width="1" height="2"><br><a href="javascript:dbiaEmailReport()" class="discreteLink"><img src="https://www.dnb.com/sir/images/btn_emailreport2.gif" alt="E-Mail Report" border="0"></a><br><img src="https://www.dnb.com/sir/images/trans.gif" border="0" width="1" height="2"><br><a href="javascript:printerFriendly(false)" class="discreteLink"><img src="https://www.dnb.com/sir/images/btn_savehtml2.gif" alt="Save HTML Report" border="0"></a><br><img src="https://www.dnb.com/sir/images/trans.gif" border="0" width="1" height="2"><br></td>
+                     </tr>
+                  </table>
+               </td>
+               <td width="15" class="blueback">&nbsp;</td>
+            </tr>
+            <tr class="yellowback">
+               <td>
+                  <div id="headBackLinks"></div>
+               </td>
+               <td><script type="text/javascript" language="Javascript1.1">
+    
+    var re = new RegExp("^" + imagePath.replace(/\//g, "\\\/"));
+    var newPath = document.images["dnb_logo"].src;
+    newPath = newPath.replace(/dnb_web_signature.gif$/,"");
+    imagePath = newPath;
+
+    tabarray["overviewoff"] 	= tabarray["overviewoff"].replace(re, newPath);
+    tabarray["overviewroll"]	= tabarray["overviewroll"].replace(re, newPath);
+    tabarray["histopsoff"]		= tabarray["histopsoff"].replace(re, newPath);
+    tabarray["histopsroll"]		= tabarray["histopsroll"].replace(re, newPath);
+    tabarray["prodsrvoff"]		= tabarray["prodsrvoff"].replace(re, newPath);
+    tabarray["prodsrvroll"]	= tabarray["prodsrvroll"].replace(re, newPath);
+    tabarray["paymentsoff"]		= tabarray["paymentsoff"].replace(re, newPath);
+    tabarray["paymentsroll"]	= tabarray["paymentsroll"].replace(re, newPath);
+    tabarray["financeoff"]		= tabarray["financeoff"].replace(re, newPath);
+    tabarray["financeroll"]		= tabarray["financeroll"].replace(re, newPath);
+    tabarray["publicoff"]		= tabarray["publicoff"].replace(re, newPath);
+    tabarray["publicroll"]		= tabarray["publicroll"].replace(re, newPath);
+
+	function dorollover(targetname,layer) {
+		// This function changes a tab to the rollover image for IE
+		var rollsrc = targetname + "roll";
+		var fullname = targetname + layer;
+		document.images[fullname].src = tabarray[rollsrc];
+		return false;
+	}
+
+	function dorolloff(targetname,layer) {
+		// This function changes a tab back to the normal image for IE
+		var offsrc = targetname + "off";
+		var fullname = targetname + layer;
+		document.images[fullname].src = tabarray[offsrc];
+		return false;
+	}
+</script><table width="622" border="0" cellspacing="0" cellpadding="0" background="https://www.dnb.com/sir/images/bg-tabs.gif">
+                     <tr>
+                        <td><img src="https://www.dnb.com/sir/images/t_left_006699.gif" width="14" height="32" alt="" border="0"><a href="javascript:displayIt('overview');" onclick="return fullyLoaded();" onMouseover="dorollover('overview',0);" onMouseout="dorolloff('overview',0);"><img name="overview0" src="https://www.dnb.com/sir/images/t_overview_off3.gif" width="83" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_mid_006699.gif" alt="" width="19" height="32" border="0"><a href="javascript:displayIt('histops');" onclick="return fullyLoaded();" onMouseover="dorollover('histops',0);" onMouseout="dorolloff('histops',0);"><img name="histops0" src="https://www.dnb.com/sir/images/t_histops_off3.gif" width="83" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_mid_006699.gif" alt="" width="19" height="32" border="0"><a href="javascript:displayIt('prodsrv');" onclick="return fullyLoaded();" onMouseover="dorollover('prodsrv',0);" onMouseout="dorolloff('prodsrv',0);"><img name="prodsrv0" src="https://www.dnb.com/sir/images/t_prodsrv_off3.gif" width="83" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_mid_006699.gif" alt="" width="19" height="32" border="0"><a href="javascript:displayIt('payments');" onclick="return fullyLoaded();" onMouseover="dorollover('payments',0);" onMouseout="dorolloff('payments',0);"><img name="payments0" src="https://www.dnb.com/sir/images/t_payments_off3.gif" width="83" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_mid_006699.gif" alt="" width="19" height="32" border="0"><a href="javascript:displayIt('finance');" onclick="return fullyLoaded();" onMouseover="dorollover('finance',0);" onMouseout="dorolloff('finance',0);"><img name="finance0" src="https://www.dnb.com/sir/images/t_finance_off3.gif" width="83" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_mid_006699.gif" alt="" width="19" height="32" border="0"><a href="javascript:displayIt('public');" onclick="return fullyLoaded();" onMouseover="dorollover('public',0);" onMouseout="dorolloff('public',0);"><img name="public0" src="https://www.dnb.com/sir/images/t_public_off3.gif" width="84" height="32" alt="" border="0"></a><img src="https://www.dnb.com/sir/images/t_right_006699.gif" width="14" height="32" alt="" border="0"></td>
+                     </tr>
+                  </table>
+                  <div id="overviewon"><script type="text/javascript" language="Javascript1.1">setVisibility("overviewon",showWord);</script><img src="https://www.dnb.com/sir/images/t_left_ffffff.gif" alt="" border="0" width="14" height="32"><img src="https://www.dnb.com/sir/images/t_overview_on3.gif" width="83" height="32" alt="" border="0"><img src="https://www.dnb.com/sir/images/t_right_ffffff-2.gif" alt="" border="0" width="19" height="32"></div>
+                  <div id="histopson"><script type="text/javascript" language="Javascript1.1">setVisibility("histopson",hideWord);</script><img src="https://www.dnb.com/sir/images/t_left_ffffff-2.gif" alt="" width="19" height="32" border="0"><img src="https://www.dnb.com/sir/images/t_histops_on3.gif" width="83" height="32" alt="" border="0"><img src="https://www.dnb.com/sir/images/t_right_ffffff-2.gif" alt="" width="19" height="32" border="0"></div>
+                  <div id="prodsrvon"><script type="text/javascript" language="Javascript1.1">setVisibility("prodsrvon",hideWord);</script><img src="https://www.dnb.com/sir/images/t_left_ffffff-2.gif" alt="" width="19" height="32" border="0"><img src="https://www.dnb.com/sir/images/t_prodsrv_on3.gif" width="83" height="32" alt="" border="0"><img src="https://www.dnb.com/sir/images/t_right_ffffff-2.gif" alt="" width="19" height="32" border="0"></div>
+                  <div id="paymentson"><script type="text/javascript" language="Javascript1.1">setVisibility("paymentson",hideWord);</script><img src="https://www.dnb.com/sir/images/t_left_ffffff-2.gif" alt="" width="19" height="32" border="0"><img src="https://www.dnb.com/sir/images/t_payments_on3.gif" width="83" height="32" alt="" border="0"><img src="https://www.dnb.com/sir/images/t_right_ffffff-2.gif" alt="" width="19" height="32" border="0"></div>
+                  <div id="financeon"><script type="text/javascript" language="Javascript1.1">setVisibility("financeon",hideWord);</script><table width="121" cellspacing="0" cellpadding="0" border="0" background="">
+                        <td width="19"><img src="https://www.dnb.com/sir/images/t_left_ffffff-2.gif" alt="" width="19" height="32" border="0"></td>
+                        <td width="83"><img src="https://www.dnb.com/sir/images//t_finance_on3.gif" width="83" height="32" alt="" border="0"></td>
+                        <td width="19"><img src="https://www.dnb.com/sir/images/t_right_ffffff-2.gif" alt="" width="19" height="32" border="0"></td>
+                     </table>
+                  </div>
+                  <div id="publicon"><script type="text/javascript" language="Javascript1.1">setVisibility("publicon",hideWord);</script><table width="117" cellpadding="0" cellspacing="0" border="0">
+                        <td width="19"><img src="https://www.dnb.com/sir/images/t_left_ffffff-2.gif" alt="" width="19" height="32" border="0"></td>
+                        <td width="84"><img src="https://www.dnb.com/sir/images//t_public_on3.gif" width="84" height="32" alt="" border="0"></td>
+                        <td width="14"><img src="https://www.dnb.com/sir/images/t_right_ffffff.gif" alt="" width="14" height="32" border="0"></td>
+                     </table>
+                  </div>
+               </td>
+               <td height="32" class="blueback">&nbsp;</td>
+            </tr>
+         </table>
+      </div>
+      <!--## BEGIN BuildContentTab: overview ##-->
+      <div id="overview"><script type="text/javascript" language="Javascript1.1">setVisibility("overview",showWord);</script><div id="overviewSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(0);
+						</script></table>
+         </div>
+         <div id="overviewContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top">
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="68%" class="sectionName" valign="middle" height="16">&nbsp;Business Information<a name="Business_Information">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/business_summary.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/business_summary.htm')">&nbsp;About Business Information</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="5">
+                        <tr>
+                           <td width="290" height="1" class="spacer290x1">&nbsp;</td>
+                           <td width="10" class="spacer10x1">&nbsp;</td>
+                           <td width="1" class="spacer1x1"></td>&nbsp;
+                           <td width="10" class="spacer10x1">&nbsp;</td>
+                           <td width="290" class="spacer290x1">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" valign="top"><span class="primaryName">JORLINK USA, INC.</span><br><span class="tradeStyle">&nbsp;&nbsp;&nbsp;&nbsp;JORLINK.COM</span><br><span class="primaryAddress">3714 Alliance Dr Ste 100</span><br><span class="primaryAddress">Greensboro, </span><span class="primaryAddress">NC&nbsp;</span><span class="primaryAddress">27407</span><br></td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" class="spacer10h">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" cols="2">
+                                 <tr>
+                                    <td colspan="2">This is a <b>headquarters</b> location.
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">Branch(es) or division(s) exist.</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="normal">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Telephone:&nbsp;</td>
+                                    <td valign="bottom" class="normal">336 288-1613</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Chief executive:&nbsp;</td>
+                                    <td valign="bottom" class="normal">MACKENZIE J QUIROS, CEO</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="normal">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Year started:&nbsp;</td>
+                                    <td valign="bottom" class="normal">1988</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Management control:&nbsp;</td>
+                                    <td valign="bottom" class="normal">1998</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Employs:</td>
+                                    <td valign="bottom">10 (UNDETERMINED here)</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">All amounts are displayed in local currency.
+                                       
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Sales&nbsp;E:</td>
+                                    <td valign="bottom">2,000,000</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">History:&nbsp;</td>
+                                    <td valign="bottom" class="normal">CLEAR</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="bottom">
+                                       <table class="topPad6" cols="2">
+                                          <tr>
+                                             <td valign="top" class="jumpTo" nowrap><img src="https://www.dnb.com/sir/images/jump_bullet.gif" border="0" align="middle">Jump to:&nbsp;
+                                             </td>
+                                             <td valign="top"><script type="text/javascript" language="Javascript1.1">
+	var jumpLink = "#Finance";
+	var jumpLabel = "Finance Section";
+	var clickScript = "showtab('finance');";
+	document.write('<a href="',jumpLink,'" onclick="',clickScript,'" class="jumpTo">',jumpLabel,'</a>');
+</script></td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td>&nbsp;</td>
+                           <td class="verticalSeparator">&nbsp;</td>
+                           <td>&nbsp;</td>
+                           <td valign="top">
+                              <table width="100%" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td valign="middle" width="50%">
+                                       <table cols="2">
+                                          <td valign="middle" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/business_summary.htm#duns')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                          <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('https://www.dnb.com/sir/help/business_summary.htm#duns')">D-U-N-S&reg; Number:</a></td>
+                                       </table>
+                                    </td>
+                                    <td valign="middle" width="50%" class="dunsNumber">04-844-7424</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="middle">
+                                       <table cols="2">
+                                          <td valign="middle" width="16"><a href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#rating')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                          <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#rating')">D&amp;B Rating:</a></td>
+                                       </table>
+                                    </td>
+                                    <td valign="middle" class="normalBold">1R3</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="normalBold">Number of employees:&nbsp;</td>
+                                    <td valign="bottom">1R is <span class="normalBold">10 or more</span> employees.
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer4h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="normalBold">Composite credit appraisal:&nbsp;</td>
+                                    <td valign="bottom">3 is <span class="normalBold">fair</span>.
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>&nbsp;</td>
+                                    <td valign="bottom">
+                                       <table class="topPad6" cols="2">
+                                          <tr>
+                                             <td valign="top" class="jumpTo" nowrap><img src="https://www.dnb.com/sir/images/jump_bullet.gif" border="0" align="middle">Jump to:&nbsp;
+                                             </td>
+                                             <td valign="top"><script type="text/javascript" language="Javascript1.1">
+	var jumpLink = "#Summary_Analysis";
+	var jumpLabel = "Summary Analysis Section";
+	var clickScript = "";
+	document.write('<a href="',jumpLink,'" onclick="',clickScript,'" class="jumpTo">',jumpLabel,'</a>');
+</script></td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="middle" width="50%">
+                                       <table cols="2">
+                                          <td valign="middle" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/supplierrisk.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                          <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('https://www.dnb.com/sir/help/supplierrisk.htm')">D&amp;B Supplier Risk:</a></td>
+                                       </table>
+                                    </td>
+                                    <td valign="middle" width="50%" class="dunsNumber"><span class="paydexScore">5</span></td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2"><b>SUPPLIER EVALUATION RISK (SER) RATING FOR THIS FIRM : <font color="red">5</font></b></td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">
+                                       <table border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                             <td width="120"></td>
+                                             <td width="30" align="center"><img src="https://www.dnb.com/sir/images/arrow.gif"></td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2"><img src="https://www.dnb.com/sir/images/serScale.gif" alt="" width="270"></td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2">&nbsp;</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">
+                              <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                                 <tr><td width="77%" class="sectionName" valign="middle" height="16">&nbsp;D&amp;B PAYDEX&reg;<a name="DBPAYDEX">&nbsp;</a></td>
+                                    <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm#paydex')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                                    <td align="right" valign="middle" bgcolor="#ffffff">
+                                       <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm#paydex')">&nbsp;About D&amp;B PAYDEX&reg;</a></nobr>
+                                    </td>
+                                 </tr>
+                              </table>
+                              <table width="100%" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td class="spacer8h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <div id="paydexGraph"><span class="normalBold">D&B PAYDEX:&nbsp;</span><span class="paydexScore">69</span><br>When weighted by dollar amount, payments to suppliers average 16 days beyond terms.
+                                       </div><img src="https://www.dnb.com/sir/images/paydex_70.gif" border="0" alt=""><p></p>
+                                       <p>Based on up to 24 months of trade.</p>
+                                    </td>
+                                    <td>
+                                       <table border="0" cellpadding="0" cellspacing="0">
+                                          <tr>
+                                             <td class="spacer24w">&nbsp;</td>
+                                             <td>
+                                                <table border="0" cellpadding="0" cellspacing="0">
+                                                   <tr>
+                                                      <td class="normalBold" colspan="2">D&amp;B PAYDEX Key</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td>&nbsp;</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td width="16" height="12" align="left" valign="middle"><img src="https://www.dnb.com/sir/images/paydex_red_box.gif" border="0" height="10" width="10"></td>
+                                                      <td valign="middle" class="sumPaydexDesc">High risk of late payment</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td height="16">&nbsp;</td>
+                                                      <td valign="top" class="sumPaydexDesc">(average 30 to 120 days beyond terms)</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td width="16" height="12" align="left" valign="middle"><img src="https://www.dnb.com/sir/images/paydex_yellow_box.gif" border="0" height="10" width="10"></td>
+                                                      <td valign="middle" class="sumPaydexDesc">Medium risk of late payment</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td height="16">&nbsp;</td>
+                                                      <td valign="top" class="sumPaydexDesc">(average 30 days or less beyond terms)</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td width="16" height="12" align="left" valign="middle"><img src="https://www.dnb.com/sir/images/paydex_green_box.gif" border="0" height="10" width="10"></td>
+                                                      <td valign="middle" class="sumPaydexDesc">Low risk of late payment</td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td height="16">&nbsp;</td>
+                                                      <td valign="top" class="sumPaydexDesc">(average prompt to 30+ days sooner)</td>
+                                                   </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td align="right">
+                                       <table class="topPad6" cols="2">
+                                          <tr>
+                                             <td valign="top" class="jumpTo" nowrap><img src="https://www.dnb.com/sir/images/jump_bullet.gif" border="0" align="middle">Jump to:&nbsp;
+                                             </td>
+                                             <td valign="top"><script type="text/javascript" language="Javascript1.1">
+	var jumpLink = "#TOP";
+	var jumpLabel = "Payments Section";
+	var clickScript = "showtab('payments');";
+	document.write('<a href="',jumpLink,'" onclick="',clickScript,'" class="jumpTo">',jumpLabel,'</a>');
+</script></td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                              </table>
+                              <table cols="2">
+                                 <td valign="middle" width="16"><a href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#score')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                 <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#score')">D&amp;B Score Interpretation Table</a></td>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5"></td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="72%" class="sectionName" valign="middle" height="16">&nbsp;Summary Analysis<a name="Summary_Analysis">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/summary_analysis_US.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/summary_analysis_US.htm')">&nbsp;About Summary Analysis</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td colspan="2">
+                                       <table cols="2">
+                                          <td valign="middle" width="16"><a href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#rating')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                          <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#rating')">D&amp;B Rating:</a></td>
+                                       </table>
+                                    </td>
+                                    <td class="normalBold">1R3</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="24">&nbsp;</td>
+                                    <td class="normalBold">Number of employees:&nbsp;</td>
+                                    <td valign="bottom">1R indicates <span class="normalBold">10 or more</span> employees.
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="3" class="spacer4h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="24">&nbsp;</td>
+                                    <td class="normalBold">Composite credit appraisal:&nbsp;</td>
+                                    <td valign="bottom">3 is <span class="normalBold">fair</span>.
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><br>The 1R and 2R ratings categories reflect company size based on the total number of employees for the business. They are assigned
+                              to business files that do not contain a current financial statement. In 1R and 2R Ratings, the 2, 3, or 4 credit worthiness
+                              indicator is based on analysis by D&amp;B of public filings, trade payments, business age and other important factors. 2 is the
+                              highest Composite Credit Appraisal a company not supplying D&amp;B with current financial information can receive.  For more information, see the <a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html#rating')">D&amp;B Rating Key</a>.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><br>Below is an overview of the company's rating history since 01/28/99:
+                              <p></p>
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td width="75">&nbsp;</td>
+                                    <td>
+                                       <table border="0" cellpadding="1" cellspacing="0">
+                                          <tr>
+                                             <td align="center" width="100" class="normalBold">D&amp;B Rating</td>
+                                             <td align="center" width="100" class="normalBold">Date Applied</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R3</td>
+                                             <td width="50%" align="center" class="ratingHistory">10/28/16</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R2</td>
+                                             <td width="50%" align="center" class="ratingHistory">07/20/15</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R3</td>
+                                             <td width="50%" align="center" class="ratingHistory">10/01/09</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R2</td>
+                                             <td width="50%" align="center" class="ratingHistory">04/14/08</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R3</td>
+                                             <td width="50%" align="center" class="ratingHistory">02/20/07</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R4</td>
+                                             <td width="50%" align="center" class="ratingHistory">04/12/06</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;1R3</td>
+                                             <td width="50%" align="center" class="ratingHistory">04/04/05</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;2R3</td>
+                                             <td width="50%" align="center" class="ratingHistory">05/07/99</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="50%" align="center" class="ratingHistory">&nbsp;--</td>
+                                             <td width="50%" align="center" class="ratingHistory">01/28/99</td>
+                                          </tr>
+                                       </table>
+                                    </td>
+                                 </tr>
+                              </table><br></td>
+                        </tr>
+                        <tr>
+                           <td class="finePrint">The Summary Analysis section reflects information in D&B's file as of November&nbsp;20, 2017.</td>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="69%" class="sectionName" valign="middle" height="16">&nbsp;Risk Score Analysis<a name="Risk_Score_Analysis">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/risk_score_analysis.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/risk_score_analysis.htm')">&nbsp;About Risk Score Analysis</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td width="3%">&nbsp;</td>
+                           <td width="*">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" colspan="2">SER COMMENTARY:</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">&nbsp;&nbsp;-&nbsp;</td>
+                           <td>Proportion of slow payment experiences to total number of payment experiences reported.</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">&nbsp;&nbsp;-&nbsp;</td>
+                           <td>Business belongs to an industry with above average risk of ceasing operations or becoming inactive.</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">&nbsp;&nbsp;-&nbsp;</td>
+                           <td>Unstable Paydex over last 12 months.</td>
+                        </tr>
+                        <tr>
+                           <td valign="top">&nbsp;&nbsp;-&nbsp;</td>
+                           <td>Proportion of past due balances to total amount owing.</td>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr>
+                           <td colspan="3" class="sectionName" valign="middle" height="16">&nbsp;Probability of Ceased Operations/Becoming Inactive<a name="Probability_of_Ceased_Operations/Becoming_Inactive">&nbsp;</a></td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td width="46%">&nbsp;</td>
+                           <td width="*">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold">SUPPLIER EVALUATION RISK RATING: 5<br></td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>The probability of ceased operations/becoming inactive indicates what percent of U.S. businesses is expected to cease operations
+                              or become inactive over next 12 months.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold">
+                              				
+                              				
+                              				Probability of Supplier Ceased Operations/Becoming Inactive :
+                              				
+                              				
+                              				
+                           </td>
+                           <td>5.4%&nbsp;&nbsp;(540 PER 10,000)</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold"> 
+                              				
+                              				
+                              				Percentage of US business with same SER score : 
+                              				
+                              				
+                              				
+                           </td>
+                           <td>18%&nbsp;&nbsp;(1,800 PER 10,000)</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold">
+                              						
+                              							
+                              							Average Probability of Supplier Ceased Operations/Becoming Inactive :
+                              							
+                              						
+                              					
+                           </td>
+                           <td>0.48%&nbsp;&nbsp;(48 PER 10,000)</td>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                           <td>- Average of Businesses in D&amp;B's Supplier Database</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold">
+                              <table cols="2">
+                                 <td valign="middle" width="16"><a href="javascript:openHelp('http://www.dnb.com/company/our-data/delinquency-predictor-and-financial-stress-class.html')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                 <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/company/our-data/delinquency-predictor-and-financial-stress-class.html')">CREDIT DELINQUENCY SCORE:</a></td>
+                              </table>
+                           </td>
+                           <td>519</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="79%" class="sectionName" valign="middle" height="16">&nbsp;Diversity<a name="Diversity">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/mwob.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/mwob.htm')">&nbsp;About Diversity</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td colspan="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td width="49%">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                 <tr>
+                                    <td width="80%">Minority-Owned Business: 							
+                                       							
+                                    </td>
+                                    <td width="20%">YES</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Ethnicity Classification: </td>
+                                    <td width="20%">Hispanic American</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Women-Owned Business: </td>
+                                    <td width="20%">YES</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Disadvantaged Business Enterprise: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Small Disadvantaged Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">HUB-Zoned Certified Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">SBA 8(a) Certified: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td width="10" class="spacer10x1">&nbsp;</td>
+                           <td width="1" class="verticalSeparator">&nbsp;</td>
+                           <td width="10" class="spacer10x1">&nbsp;</td>
+                           <td width="49%">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                 <tr>
+                                    <td width="80%">Historically Underutilized Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Veteran-Owned Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Vietnam Veteran Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Disabled-Owned Business: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Historical College Classification: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Labor surplus area: </td>
+                                    <td width="20%">N/A</td>
+                                 </tr>
+                                 <tr>
+                                    <td width="80%">Small Business: </td>
+                                    <td width="20%">YES (2017)</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr>
+                           <td colspan="3" class="sectionName" valign="middle" height="16">&nbsp;Customer Service<a name="Customer_Service">&nbsp;</a></td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <p>If you have questions about this report, please call our Customer Resource Center at 1.800.234.3867 from anywhere within the
+                                 U.S.  If you are outside the U.S. contact your local D&amp;B office.
+                              </p>
+                              <p align="center">*** Additional Decision Support Available ***</p>
+                              <p>Additional D&B products, monitoring services and specialized investigations are available to help you evaluate this company
+                                 or its  industry.  Call Dun & Bradstreet's Customer Resource Center at 1.800.234.3867 from anywhere within the U.S. or visit
+                                 our website at <a href="http://www.dnb.com/">www.dnb.com</a>.
+                              </p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="overviewFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1"></td>
+                  <td width="150" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="120" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="84" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="83" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="100" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnavwhite">Overview</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'histops\');">History & Operations</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'prodsrv\');">Products & Services</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'payments\');">Payments</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'finance\');">Finance</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'public\');">Public Filings</a>');
+</script></td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="overviewSide">&nbsp;</div>
+      </div>
+      <!--## END overview ##-->
+      <!--## BEGIN BuildContentTab: histops ##-->
+      <div id="histops"><script type="text/javascript" language="Javascript1.1">setVisibility("histops",hideWord);</script><div id="histopsSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(1);
+						</script></table>
+         </div>
+         <div id="histopsContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top">
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="81%" class="sectionName" valign="middle" height="16">&nbsp;History<a name="History">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/history.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/history.htm')">&nbsp;About History</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="2">
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">The following information was reported <span class="normalBold">11/18/2017</span>:
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top" nowrap width="110">Officer(s):&nbsp;&nbsp;</td>
+                           <td class="normal" height="16">MACKENZIE J QUIROS, CEO</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                 <tr>
+                                    <td width="110" class="normalBold" valign="top">DIRECTOR(S):&nbsp;</td>
+                                    <td class="normal" valign="top"> THE OFFICER(S) and James Spencer, Evangeline Quiros.</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>The North Carolina Secretary of State's business registrations file showed that Jorlink USA, Inc. was registered as a Corporation
+                              on March 26, 1999, under file registration number 0489822.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>Business started 1988 by Mackenzie J Quiros. Present control succeeded 1998. 100% of capital stock is owned by Mackenzie J
+                              Quiros.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>MACKENZIE J QUIROS. Antecedents are unknown.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="2">
+                              <hr width="80%" size="1">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>Business address has changed from 3401 Trail Ridge Dr, Greensboro, NC, 27410 to 2125 Enterprise Rd., Greensboro, NC, 27408.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>Business address has changed from 2125 Enterprise Rd Ste B, Greensboro, NC, 27408 to 3714 Alliance Dr Ste 100, Greensboro,
+                              NC, 27407.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>05/05/2014 Moved to larger facility from our previous address (2125 Enterprise)..
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>03/04/2015 Evangeline Quiros acting as Jorlink's CFO &amp; HR .
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>07/01/2015 James Spencer II has been promoted to Sales Manager of Commercial Accounts
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2"><br>06/01/2015 Mackenzie Quiros is now managing GSA-GOV contracts with help from Steve Balser, Carlos Obregon &amp; Jeannie Merkle
+                              (Merkle Consulting). James Spencer II has been promoted to Sales Manager of Commercial Accounts.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="67%" class="sectionName" valign="middle" height="16">&nbsp;Business Registration<a name="Business_Registration">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/business_regs.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/business_regs.htm')">&nbsp;About Business Registration</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td colspan="5" class="normal"><br>CORPORATE AND BUSINESS REGISTRATIONS REPORTED BY THE SECRETARY OF STATE OR OTHER OFFICIAL SOURCE AS OF&nbsp;NOV 10 2017:
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" class="finePrint"><br>This data is for information purposes only. Certification can only be obtained through the Department of the North Carolina
+                              Secretary of State.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" class="normal">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td class="normalBold" valign="top" width="155">Registered Name:</td>
+                                    <td>JORLINK USA, INC.</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" class="normal">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normal" width="291" valign="top">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td class="spacer155w">&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Business type:&nbsp;</td>
+                                    <td valign="bottom" class="normal">CORPORATION</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Corporation type:&nbsp;</td>
+                                    <td valign="bottom" class="normal">PROFIT</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Date incorporated:&nbsp;</td>
+                                    <td valign="bottom" class="normal">MAR 26 1999</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">State of incorporation:&nbsp;</td>
+                                    <td valign="bottom" class="normal">NORTH CAROLINA</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Filing date:&nbsp;</td>
+                                    <td valign="bottom" class="normal">MAR 26 1999</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Registration ID:&nbsp;</td>
+                                    <td valign="bottom" class="normal">0489822 -BUS</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Duration:&nbsp;</td>
+                                    <td valign="bottom" class="normal">PERPETUAL</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normalBold">Status:&nbsp;</td>
+                                    <td valign="bottom" class="normal">ACTIVE</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td class="spacer10x1">&nbsp;</td>
+                           <td class="verticalSeparator">&nbsp;</td>
+                           <td class="spacer10x1">&nbsp;</td>
+                           <td class="normal" valign="top" width="291">
+                              <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                 <tr>
+                                    <td width="50%">&nbsp;</td>
+                                    <td width="50%">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="normalBold">Common stock</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" class="normal">Authorized shares:&nbsp;</td>
+                                    <td valign="bottom" class="normal">100,000</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="spacer2h">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td>Par value:</td>
+                                    <td>NO PAR VALUE</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="normal">&nbsp;</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                 <tr>
+                                    <td colspan="2" class="normal">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="normalBold" valign="top" width="155">Where filed:</td>
+                                    <td class="normal" valign="bottom">SECRETARY OF STATE/CORPORATIONS DIVISION, RALEIGH, NC</td>
+                                 </tr>
+                                 <tr>
+                                    <td colspan="2" class="normal">&nbsp;</td>
+                                 </tr>
+                                 <tr>
+                                    <td class="normalBold" valign="top" width="155">Registered agent:</td>
+                                    <td class="normal" valign="bottom">QUIROS, MACKENZIE J, 3714 ALLIANCE DR, SUITE 100, GREENSBORO, NC, 274070000</td>
+                                 </tr>
+                              </table>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" class="normal">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="78%" class="sectionName" valign="middle" height="16">&nbsp;Operations<a name="Operations">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/operation.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/operation.htm')">&nbsp;About Operations</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normal" colspan="2">11/18/2017</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">Description:&nbsp;&nbsp;</td>
+                           <td class="normal" valign="top">Wholesales service establishment equipment, specializing in engraving equipment (100%). Manufactures fans, blowers and air
+                              purification equipment, specializing in industrial dust or fume collecting equipment.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">&nbsp;</td>
+                           <td class="normal" valign="top">Has 10000 account(s). Terms are cash, Net 7 days, Net 15 days and Net 30 days. 40% of sales on the internet. Sells to manufacturers,
+                              wholesalers, retailers, non-profit organizations, and government. Territory : International.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">Employees:&nbsp;&nbsp;</td>
+                           <td class="normal" valign="top">10 which includes officer(s). UNDETERMINED employed here.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">Facilities:&nbsp;&nbsp;</td>
+                           <td class="normal" valign="top">Owns 5,000 sq. ft. in a one story brick building.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">Location:  &nbsp;&nbsp;</td>
+                           <td class="normal" valign="top">Central business section on side street.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top">Branches:  &nbsp;&nbsp;</td>
+                           <td class="normal" valign="top">No branch location.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="histopsFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="150" height="1"></td>
+                  <td width="120" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="84" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="83" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="100" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'overview\');">Overview</a>');
+</script></td>
+                  <td align="center" class="bottomnavwhite">History &amp; Operations</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'prodsrv\');">Products & Services</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'payments\');">Payments</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'finance\');">Finance</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'public\');">Public Filings</a>');
+</script></td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="histopsSide">&nbsp;</div>
+      </div>
+      <!--## END histops ##-->
+      <!--## BEGIN BuildContentTab: prodsrv ##-->
+      <div id="prodsrv"><script type="text/javascript" language="Javascript1.1">setVisibility("prodsrv",hideWord);</script><div id="prodsrvSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(2);
+						</script></table>
+         </div>
+         <div id="prodsrvContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top">
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="82%" class="sectionName" valign="middle" height="16">&nbsp;UNSPSC<a name="UNSPSC">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/unspsc.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/unspsc.htm')">&nbsp;About UNSPSC</a></nobr>
+                           </td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normal">UNSPSC (United Nations Standard Product and Services Code) is a globally accepted commodity (Product and Services) classification
+                              system. JORLINK USA, INC. offers the following product(s) and service(s):
+                           </td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">40161503</td>
+                           <td class="normalBold" valign="top">Dust collectors</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">48000000</td>
+                           <td class="normalBold" valign="top">Service Industry Machinery and Equipment and Supplies</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="83%" class="sectionName" valign="middle" height="16">&nbsp;NAICS<a name="NAICS">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/sic_naics.htm#NAICS')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/sic_naics.htm#NAICS')">&nbsp;About NAICS</a></nobr>
+                           </td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normal">Beginning in 1997, the <b>Standard Industrial Classification</b> (SIC) was replaced by the <b>North American Industry Classification System</b> (NAICS).  This six digit code is a major revision that not only provides for newer industries, but also reorganizes the categories
+                              on a production/process-oriented basis.  This new, uniform, industry-wide classification system has been designed as the index
+                              for statistical reporting of all economic activities of the U.S., Canada, and Mexico.
+                           </td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">423850</td>
+                           <td class="normalBold" valign="top">Service Establishment Equipment and Supplies Merchant Wholesalers</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">333413</td>
+                           <td class="normalBold" valign="top">Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="85%" class="sectionName" valign="middle" height="16">&nbsp;SIC<a name="SIC">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/sic_naics.htm#SIC')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/sic_naics.htm#SIC')">&nbsp;About SIC</a></nobr>
+                           </td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normal">Based on information in our file, D&amp;B has assigned this company an extended 8-digit SIC. D&amp;B's use of 8-digit SICs enables
+                              us to be more specific to a company's operations than if we use the standard 4-digit code.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table><br><table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">50879903</td>
+                           <td class="normalBold" valign="top">Engraving equipment and supplies</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold" valign="top" width="90">35640104</td>
+                           <td class="normalBold" valign="top">Dust or fume collecting equipment, industrial</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2">&nbsp;</td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="prodsrvFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="150" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="120" height="1"></td>
+                  <td width="84" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="83" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="100" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'overview\');">Overview</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'histops\');">History & Operations</a>');
+</script></td>
+                  <td align="center" class="bottomnavwhite">Products &amp; Services</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'payments\');">Payments</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'finance\');">Finance</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'public\');">Public Filings</a>');
+</script></td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="prodsrvSide">&nbsp;</div>
+      </div>
+      <!--## END prodsrv ##-->
+      <!--## BEGIN BuildContentTab: payments ##-->
+      <div id="payments"><script type="text/javascript" language="Javascript1.1">setVisibility("payments",hideWord);</script><div id="paymentsSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(3);
+						</script></table>
+         </div>
+         <div id="paymentsContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top"><script type="text/javascript" language="Javascript1.1">
+	// ** PAYMENT DETAILS **
+	var summaryTableBackground = '#ffcc33';
+
+	function paymentDetailRow(dt_rptd, pmt_rec, hi_cr, now_owe, pst_due, sell_trm, last_sls_wthn, note, rowIdx) {
+		document.write('<tr class="', paymentRowClass(pmt_rec,rowIdx), '"><td height="18">');
+		if (dt_rptd != paymentDetailDate) {
+			document.write(dt_rptd.substr(5)+'/'+dt_rptd.substr(2,2));
+			paymentDetailDate = dt_rptd;
+		} else {
+			document.write('&nbsp;');
+		}
+		document.write('</td><td class="', paymentCellClass(pmt_rec,rowIdx), '">&nbsp;');
+		document.write(pmt_rec);
+		document.write('</td><td class="rightJust">');
+		formatNumber(hi_cr);
+		document.write('&nbsp;</td><td class="rightJust">');
+		formatNumber(now_owe);
+		document.write('&nbsp;</td><td class="rightJust">');
+		formatNumber(pst_due);
+		document.write('&nbsp;</td><td>');
+		if (sell_trm.length > 0) {
+			document.write(sell_trm);
+		} else {
+			document.write('&nbsp;');
+		}
+		document.write('</td><td class="last">');
+		if (last_sls_wthn.length > 0) {
+			document.write(last_sls_wthn);
+		} else {
+			document.write('&nbsp;');
+		}
+		document.writeln('</td></tr>');
+		if (note.length > 0) {
+			document.write('<tr class="', paymentRowClass(pmt_rec,rowIdx), '"><td height="18">Â </td><td colspan="6" class="note">Â ', note, '.</td></tr>');
+		}
+	}
+
+	function paymentCellClass(pmt_rec, rowIdx) {
+		if (slowPayment(pmt_rec) == "true") {
+			return "leftJustRed";
+		} else {
+			return "leftJust";
+		}
+	}
+			
+	function paymentRowClass(pmt_rec, rowIdx) {
+		if (slowPayment(pmt_rec) == "true") {
+			if (rowIdx % 2) {
+				return "pmtRowRedWhite";
+			} else {
+				return "pmtRowRedBlue";
+			}
+		} else {
+			if (rowIdx % 2) {
+				return "normal";
+			} else {
+				return "pmtRowBlackBlue";
+			}
+		}
+	}
+			
+	function slowPayment(pmt_rec) {
+		if (pmt_rec.substr(0,5) == 'Slow ') {
+			var days = 0;
+			var days2 = 0;
+			var hyphen = pmt_rec.indexOf('-',5);
+			if (hyphen < 0) {
+				days = pmt_rec.substr(5);
+				days2 = days;
+			} else {
+				days = pmt_rec.substr(5,hyphen-5);
+				days2 = pmt_rec.substr(hyphen+1);
+			}
+			var plus = days.indexOf('+');
+			if (plus > 0) {
+				days = days.substr(0,plus);
+			}
+			var plus = days2.indexOf('+');
+			if (plus > 0) {
+				days2 = days2.substr(0,plus);
+			}
+			days = (parseInt(days) + parseInt(days2)) / 2;
+			if (days >= 30) {
+				return "true";
+			}
+		}
+		return "false";
+	}
+	
+	
+	//** Trend Category
+	function paymentTrendCategory(category)
+		{
+			document.write('<tr><td colspan="15" class="payTrendCat">'+category+'</td><td width="91" class="payTrendCat">&nbsp;</td><td width="91" class="payTrendCat">&nbsp;</td><td width="91" class="payTrendCat">&nbsp;</td><td width="91" class="payTrendCat">&nbsp;</td></tr>');
+	}
+	//** TREND ROW
+	
+	function TrendRow(rowIdx,section,qtr1, qtr2, qtr3, qtr4, m1, m2, m3, m4, m5,m6,m7,m8,m9,m10,m11,m12)
+		{
+if (rowIdx % 2) {
+	document.write('<tr class= "pmtRowBlackBlue">');
+} else {
+	document.write('<tr class= "pmtRowBlackWhite">');
+	//** document.write('<tr>');
+}
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(section);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(qtr1);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(qtr2)
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(qtr3);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(qtr4)
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m1);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m2);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m3);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m4);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m5);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m6);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m7);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m8);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m9);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m10);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m11);
+document.write('</td>');
+document.write('<td class="leftJust" height="18">&nbsp;');
+document.write(m12);
+document.write('</td>');
+document.write('</tr>');
+	}
+	
+	// ** PAYMENT SUMMARY **
+	
+	function paymentSummaryCategory(category)
+	{
+		document.write('<tr><td colspan="5" class="paySumCat">'+category+'</td><td width="41" class="paySumCat">&nbsp;</td><td width="41" class="paySumCat">&nbsp;</td><td width="41" class="paySumCat">&nbsp;</td><td width="41" class="paySumCat">&nbsp;</td></tr>');
+	}
+			
+	function paymentSummaryRow(rowIdx,sic_desc, pmt_rec, tot_dolr, hi_cr, wthn_trm, slow30, slow60, slow90, slow_plus)
+	{
+		if (rowIdx % 2) {
+			document.write('<tr class= "pmtRowBlackBlue">');
+		} else {
+			document.write('<tr>');
+		}
+		document.write('<td class="leftJust" height="18">&nbsp;');
+		document.write(sic_desc);
+		document.write('</td><td class="rightJust">');
+		formatNumber(pmt_rec);
+		document.write('&nbsp;</td><td class="rightJust">');
+		formatNumber(tot_dolr);
+		document.write('&nbsp;</td>');
+		if (hi_cr != null) {
+			document.write('<td class="rightJust">');
+			formatNumber(hi_cr);
+			document.write('&nbsp;</td>');
+		} else {
+			document.write('<td colspan="6" class="last">&nbsp;</td>');
+			return;
+		}
+		if (wthn_trm != null) {
+			document.write('<td class="rightJust">');
+			if (wthn_trm.length > 0) {
+				document.write(wthn_trm);
+			} else {
+				document.write('-');
+			}
+			document.write('&nbsp;</td>');
+		} else {
+			document.write('<td colspan="5" class="last">&nbsp;</td>');
+			return;
+		}
+		document.write('<td class="rightJust">');
+		if (slow30 != null)
+		{
+			if (slow30.length > 0) {
+				document.write(slow30);
+			} else {
+				document.write('-');
+			}
+		}
+		document.write('&nbsp;</td><td class="rightJust">');
+		if (slow60 != null)
+		{
+			if (slow60.length > 0) {
+				document.write(slow60);
+			} else {
+				document.write('-');
+			}
+		}
+		document.write('&nbsp;</td><td class="rightJust">');
+		if (slow90 != null) {
+			if (slow90.length > 0) {
+				document.write(slow90);
+			} else {
+				document.write('-');
+			}
+		}
+		document.write('&nbsp;</td><td class="rightJust">');
+		if (slow_plus != null) {
+			if (slow_plus.length > 0) {
+				document.write(slow_plus);
+			} else {
+				document.write('-');
+			}
+		}
+		document.write('&nbsp;</td></tr>');
+	}
+
+	function paymentSummaryFooter(pmt_rec, tot_dolr, hi_cr) {
+		document.write('<tr>');
+		document.write('<td class="summLeft" height="18">&nbsp;Total in D&B\'s file');
+		document.write('</td><td class="summ">');
+		formatNumber(pmt_rec);
+		document.write('&nbsp;</td><td class="summ">');
+		formatNumber(tot_dolr);
+		document.write('&nbsp;</td><td class="summ">');
+		formatNumber(hi_cr);
+		document.write('<td colspan="5" class="summ">&nbsp;</td>');
+	}
+
+	// ** NUMBER FORMATTING **
+	
+	function formatNumber(aString) {
+		// This is faster than XSL's format-number() function
+		if (aString.length > 0) {
+			var aNumber = new Number(aString);
+			if (aNumber >= 1000) {
+				numberFormatter.setNumber(aNumber);
+				document.write(numberFormatter.toFormatted());
+			} else {
+				document.write(aString);
+			}
+		}
+	}
+</script><table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="78%" class="sectionName" valign="middle" height="16">&nbsp;D&amp;B PAYDEX<a name="D&amp;B_PAYDEX">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm#paydex')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm#paydex')">&nbsp;About D&amp;B PAYDEX</a></nobr>
+                           </td>
+                        </tr>
+                     </table>&nbsp;<br><div id="paydexExp">
+                        <table width="602" border="0" cellspacing="0" cellpadding="0">
+                           <tr>
+                              <td>The D&amp;B PAYDEX is a unique, dollar weighted indicator of payment performance based on up to 13 payment experiences as reported to D&amp;B by trade references.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr valign="top">
+                           <td class="paydex90Day">
+                              <div id="paydexGraph"><span class="normalBold">3-Month D&B PAYDEX:&nbsp;</span><span class="paydexScore">65</span><br>When weighted by dollar amount, payments to suppliers average 19 days beyond terms.
+                              </div><img src="https://www.dnb.com/sir/images/paydex_65.gif" border="0" alt=""><p></p>
+                              <p>Based on trade collected over last 3 months.</p>
+                           </td>
+                           <td class="leftPad9">
+                              <div id="paydexGraph"><span class="normalBold">D&B PAYDEX:&nbsp;</span><span class="paydexScore">69</span><br>When weighted by dollar amount, payments to suppliers average 16 days beyond terms.
+                              </div><img src="https://www.dnb.com/sir/images/paydex_70.gif" border="0" alt=""><p></p>
+                              <p>Based on up to 24 months of trade.</p>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="paydex90Day">&nbsp;</td>
+                           <td class="leftPad9Left">When dollar amounts are not considered, then approximately 78% of the company's payments are within terms.
+                              <p></p>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td valign="top">
+                              <table cols="2">
+                                 <td valign="middle" width="16"><a href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" width="16" height="16" align="middle"></a></td>
+                                 <td valign="middle" align="left"><a class="brandedElement" href="javascript:openHelp('http://www.dnb.com/us/customer_service/scores.html')">D&amp;B PAYDEX Key:</a></td>
+                              </table>
+                           </td>
+                        </tr>
+                        <td>
+                           <table>
+                              <tr>
+                                 <td class="sumPaydexDesc" valign="middle" height="16"><img src="https://www.dnb.com/sir/images/paydex_red_box.gif"> High risk of late payment (average 30 to 120 days beyond terms)
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td class="sumPaydexDesc" valign="middle" height="16"><img src="https://www.dnb.com/sir/images/paydex_yellow_box.gif"> Medium risk of late payment (average 30 days or less beyond terms)
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td class="sumPaydexDesc" valign="middle" height="16"><img src="https://www.dnb.com/sir/images/paydex_green_box.gif"> Low risk of late payment (average prompt to 30+ days sooner)
+                                 </td>
+                              </tr>
+                           </table>
+                        </td>
+                     </table>
+                     <p></p><br><table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="73%" class="sectionName" valign="middle" height="16">&nbsp;Payment Summary<a name="Payment_Summary">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/payment_summary.htm')">&nbsp;About Payment Summary</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>The Payment Summary section reflects payment information in D&amp;B's file as of the date of this report.<br><br>Below is an overview of the company's dollar-weighted payments, segmented by its suppliers' primary industries:<br><br><div id="payDet">
+                                 <table cellspacing="0" width="588">
+                                    <tr class="header">
+                                       <th class="headerLeft" width="165">&nbsp;</th>
+                                       <th width="41">Total<br>Rcv'd<br>(#)
+                                       </th>
+                                       <th width="81">Total Dollar<br>Amts<br>($)
+                                       </th>
+                                       <th width="86">Largest High<br>Credit<br>($)
+                                       </th>
+                                       <th width="51">Within<br>Terms<br>(%)
+                                       </th>
+                                       <th class="headerRight" colspan="4">Days Slow<br>&lt;31 31-60 61-90 90&gt;<br>(%)
+                                       </th>
+                                    </tr><script type="text/javascript" language="Javascript1.1">
+paymentSummaryCategory('Top industries:');
+paymentSummaryRow(1,"Executive office","2","5250","5000","100","","","","");
+paymentSummaryRow(2,"Nonclassified","2","150","100","67","","","33","");
+paymentSummaryRow(3,"Whol computers/softwr","1","25000","25000","50","50","","","");
+paymentSummaryRow(4,"Natnl commercial bank","1","5000","5000","100","","","","");
+paymentSummaryRow(5,"Telephone communictns","1","1000","1000","50","50","","","");
+paymentSummaryRow(6,"Lithographic printing","1","250","250","100","","","","");
+paymentSummaryRow(7,"Whol service paper","1","250","250","100","","","","");
+paymentSummaryCategory("Other payment categories:");
+paymentSummaryRow(1,"Cash experiences","3","150","50");
+paymentSummaryRow(2,"Payment record unknown","1","1000","1000");
+paymentSummaryRow(3,"Unfavorable comments","0","0","0");
+paymentSummaryCategory("Placed for collections:");
+paymentSummaryRow(1,"With D&B","0","0");
+paymentSummaryRow(2,"Other","0","N/A");
+paymentSummaryFooter("13","38050","25000");
+</script></table>
+                              </div>
+                              <p></p><span class="normal">The highest <span class="normalBold"> Now Owes</span> on file is $10,000
+                                 <p></p>The highest <span class="normalBold">Past Due</span> on file is $0</span><span class="normal">
+                                 <p class="normal">The aggregate dollar amount of the 13 payment experiences in D&amp;B's file equals 22.8% of this company's average monthly sales.
+                                    In Dun &amp; Bradstreet's opinion, payment experiences exceeding 10% of a company's average monthly sales can be considered representative
+                                    of payment performance.
+                                 </p></span><p></p><br></td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="73%" class="sectionName" valign="middle" height="16">&nbsp;Payment Details<a name="Payment_Details">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/payment_details.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/payment_details.htm')">&nbsp;About Payment Details</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     		&nbsp;<br><span class="normalBold">Detailed payment history</span><p></p>
+                     <div id="payDet">
+                        <table cellspacing="0" width="601">
+                           <tr class="header">
+                              <th class="headerLeft" width="103">Date Reported<br>(mm/yy)
+                              </th>
+                              <th width="103">Paying Record</th>
+                              <th width="79">High Credit<br>($)
+                              </th>
+                              <th width="72">Now Owes<br>($)
+                              </th>
+                              <th width="63">Past Due<br>($)
+                              </th>
+                              <th width="112">Selling Terms</th>
+                              <th class="headerRight" width="69">Last Sale<br>Within<br>(months)
+                              </th>
+                           </tr><script type="text/javascript" language="Javascript1.1">
+paymentDetailRow("2017-10","Ppt","250","","","","1 mo","",1);
+paymentDetailRow("2017-10","Ppt","250","0","0","","6-12 mos","",2);
+paymentDetailRow("2017-10","Ppt","100","0","0","","6-12 mos","",3);
+paymentDetailRow("2017-10","Ppt-Slow 30","25000","10000","0","","1 mo","",4);
+paymentDetailRow("2017-10","Ppt-Slow 30","1000","0","0","","1 mo","",5);
+paymentDetailRow("2017-10","(006)","50","0","0","Cash account","2-3 mos","",6);
+paymentDetailRow("2017-10","(007)","50","0","0","Cash account","1 mo","",7);
+paymentDetailRow("2017-10","(008)","50","","","Cash account","1 mo","",8);
+paymentDetailRow("2017-09","Slow 90","50","0","0","","6-12 mos","",9);
+paymentDetailRow("2017-05","Ppt","5000","50","0","","","",10);
+paymentDetailRow("2017-04","(011)","1000","0","0","","6-12 mos","",11);
+paymentDetailRow("2016-06","Ppt","5000","","","","1 mo","",12);
+paymentDetailRow("2016-06","Ppt","250","","","","1 mo","",13);</script></table>
+                     </div>
+                     <p></p>
+                     <table border="0">
+                        <td><b>Payments Detail Key:&nbsp;&nbsp;</b></td>
+                        <td valign="middle"><img src="https://www.dnb.com/sir/images/paydex_red_box.gif"> 30 or more days beyond terms
+                        </td>
+                     </table>
+                     <table width="602" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                           <td>
+                              <p class="finePrint">Payment experiences reflect how bills are met in relation to the terms granted. In some instances payment beyond terms can
+                                 be the result of disputes over merchandise, skipped invoices etc.
+                              </p>
+                              <p class="finePrint">Each experience shown is from a separate supplier. Updated trade experiences replace those previously reported.</p>
+                              <p></p>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="74%" class="sectionName" valign="middle" height="16">&nbsp;Payment Trends<a name="Payment_Trends">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/payment_trends.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/payment_trends.htm')">&nbsp;About Payment Trends</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td><br><br><span class="normalBold">SUPPLIER  VERSUS  INDUSTRY  PAYDEX</span><br><br><div id="payDet">
+                                 <table cellspacing="0" width="588">
+                                    <tr class="header">
+                                       <th class="headerLeft" colspan="1"> -&gt; </th>
+                                       <th colspan="4">PRIOR  4  QTRS</th>
+                                       <th class="headerRight" colspan="12"> CURRENT  12  MONTH  TREND </th>
+                                    </tr><script type="text/javascript" language="Javascript1.1">
+                                var month_name = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
+
+                                
+
+    var supply_paydex = new Object();
+    var cols = new Array();
+    var index = 12;
+    
+                supply_paydex['2017-11'] = "69";
+                cols[0] = new Object();
+                cols[0].label = "2017-11";
+                cols[0].month = parseInt("11",10)-1;
+                cols[0].year = parseInt("2017");
+                supply_paydex['2017-10'] = "69";
+                cols[1] = new Object();
+                cols[1].label = "2017-10";
+                cols[1].month = parseInt("10",10)-1;
+                cols[1].year = parseInt("2017");
+                supply_paydex['2017-09'] = "80";
+                cols[2] = new Object();
+                cols[2].label = "2017-09";
+                cols[2].month = parseInt("09",10)-1;
+                cols[2].year = parseInt("2017");
+                supply_paydex['2017-08'] = "68";
+                cols[3] = new Object();
+                cols[3].label = "2017-08";
+                cols[3].month = parseInt("08",10)-1;
+                cols[3].year = parseInt("2017");
+                supply_paydex['2017-07'] = "68";
+                cols[4] = new Object();
+                cols[4].label = "2017-07";
+                cols[4].month = parseInt("07",10)-1;
+                cols[4].year = parseInt("2017");
+                supply_paydex['2017-06'] = "68";
+                cols[5] = new Object();
+                cols[5].label = "2017-06";
+                cols[5].month = parseInt("06",10)-1;
+                cols[5].year = parseInt("2017");
+                supply_paydex['2017-05'] = "79";
+                cols[6] = new Object();
+                cols[6].label = "2017-05";
+                cols[6].month = parseInt("05",10)-1;
+                cols[6].year = parseInt("2017");
+                supply_paydex['2017-04'] = "79";
+                cols[7] = new Object();
+                cols[7].label = "2017-04";
+                cols[7].month = parseInt("04",10)-1;
+                cols[7].year = parseInt("2017");
+                supply_paydex['2017-03'] = "78";
+                cols[8] = new Object();
+                cols[8].label = "2017-03";
+                cols[8].month = parseInt("03",10)-1;
+                cols[8].year = parseInt("2017");
+                supply_paydex['2017-02'] = "78";
+                cols[9] = new Object();
+                cols[9].label = "2017-02";
+                cols[9].month = parseInt("02",10)-1;
+                cols[9].year = parseInt("2017");
+                supply_paydex['2017-01'] = "78";
+                cols[10] = new Object();
+                cols[10].label = "2017-01";
+                cols[10].month = parseInt("01",10)-1;
+                cols[10].year = parseInt("2017");
+                supply_paydex['2016-12'] = "78";
+                cols[11] = new Object();
+                cols[11].label = "2016-12";
+                cols[11].month = parseInt("12",10)-1;
+                cols[11].year = parseInt("2016");
+                supply_paydex['2016-09'] = "77";
+                cols[index] = new Object();
+                cols[index].label = "2016-09";
+                cols[index].month = parseInt("09",10)-1;
+                cols[index++].year = parseInt("2016");
+
+                supply_paydex['2016-06'] = "74";
+                cols[index] = new Object();
+                cols[index].label = "2016-06";
+                cols[index].month = parseInt("06",10)-1;
+                cols[index++].year = parseInt("2016");
+
+                supply_paydex['2016-03'] = "79";
+                cols[index] = new Object();
+                cols[index].label = "2016-03";
+                cols[index].month = parseInt("03",10)-1;
+                cols[index++].year = parseInt("2016");
+
+                supply_paydex['2015-12'] = "80";
+                cols[index] = new Object();
+                cols[index].label = "2015-12";
+                cols[index].month = parseInt("12",10)-1;
+                cols[index++].year = parseInt("2015");
+
+    var ind_low_qrtl = new Object();
+    var ind_med_qrtl = new Object();
+    var ind_upr_qrtl = new Object();
+
+    
+        ind_low_qrtl['2017-09'] = "69";
+        ind_med_qrtl['2017-09'] = "79";
+        ind_upr_qrtl['2017-09'] = "80";
+        ind_low_qrtl['2017-06'] = "67";
+        ind_med_qrtl['2017-06'] = "78";
+        ind_upr_qrtl['2017-06'] = "80";
+        ind_low_qrtl['2017-03'] = "68";
+        ind_med_qrtl['2017-03'] = "78";
+        ind_upr_qrtl['2017-03'] = "80";
+        ind_low_qrtl['2016-12'] = "68";
+        ind_med_qrtl['2016-12'] = "77";
+        ind_upr_qrtl['2016-12'] = "80";
+        ind_low_qrtl['2016-09'] = "68";
+        ind_med_qrtl['2016-09'] = "77";
+        ind_upr_qrtl['2016-09'] = "80";
+        ind_low_qrtl['2016-06'] = "69";
+        ind_med_qrtl['2016-06'] = "78";
+        ind_upr_qrtl['2016-06'] = "80";
+        ind_low_qrtl['2016-03'] = "70";
+        ind_med_qrtl['2016-03'] = "78";
+        ind_upr_qrtl['2016-03'] = "80";
+        ind_low_qrtl['2015-12'] = "70";
+        ind_med_qrtl['2015-12'] = "78";
+        ind_upr_qrtl['2015-12'] = "80";
+
+                                TrendRow(1,"",
+cols[15].year,
+(cols[14].year==cols[15].year ? "---" : cols[14].year),
+(cols[13].year==cols[14].year ? "---" : cols[13].year),
+(cols[12].year==cols[13].year ? "---" : cols[12].year),
+(cols[11].year==cols[12].year ? "---" : cols[11].year),
+(cols[10].year==cols[11].year ? "---" : cols[10].year),
+(cols[9].year==cols[10].year ? "---" : cols[9].year),
+(cols[8].year==cols[9].year ? "---" : cols[8].year),
+(cols[7].year==cols[8].year ? "---" : cols[7].year),
+(cols[6].year==cols[7].year ? "---" : cols[6].year),
+(cols[5].year==cols[6].year ? "---" : cols[5].year),
+(cols[4].year==cols[5].year ? "---" : cols[4].year),
+(cols[3].year==cols[4].year ? "---" : cols[3].year),
+(cols[2].year==cols[3].year ? "---" : cols[2].year),
+(cols[1].year==cols[2].year ? "---" : cols[1].year),
+(cols[0].year==cols[1].year ? "---" : cols[0].year));
+                                TrendRow(2,"",month_name[cols[15].month],month_name[cols[14].month],month_name[cols[13].month],month_name[cols[12].month],month_name[cols[11].month],month_name[cols[10].month],month_name[cols[9].month],month_name[cols[8].month],month_name[cols[7].month],month_name[cols[6].month],month_name[cols[5].month],month_name[cols[4].month],month_name[cols[3].month],month_name[cols[2].month],month_name[cols[1].month],month_name[cols[0].month]);
+                                document.write('<tr class= "pmtRowBlackBlue"><td>&nbsp;Supplier PAYDEX</td>');
+                                for (var i = index-1; i >= 0; i--) {
+                                  document.write('<td class="leftJust" height="18">&nbsp;' + supply_paydex[cols[i].label] + '</td>');
+                                }
+                                document.write('</tr>');
+
+                                paymentTrendCategory("Industry PAYDEX (Based on 21 establishments in SIC 5087)"); 
+                                document.write('<tr class= "pmtRowBlackBlue"><td>&nbsp;UP QRT</td>');
+                                for (var i = index-1; i >= 0; i--) {
+                                  if (ind_upr_qrtl[cols[i].label] != null) {
+                                    document.write('<td class="leftJust" height="18">&nbsp;' + ind_upr_qrtl[cols[i].label] + '</td>');
+                                  }
+                                  else {
+                                    document.write('<td class="leftJust" height="18">&nbsp;</td>');
+                                  }
+                                }
+                                document.write('</tr>');
+                                document.write('<tr class= "pmtRowBlackWhite"><td>&nbsp;MEDIAN</td>');
+                                for (var i = index-1; i >= 0; i--) {
+                                  if (ind_med_qrtl[cols[i].label] != null) {
+                                    document.write('<td class="leftJust" height="18">&nbsp;' + ind_med_qrtl[cols[i].label] + '</td>');
+                                  }
+                                  else {
+                                    document.write('<td class="leftJust" height="18">&nbsp;</td>');
+                                  }
+                                }
+                                document.write('</tr>');
+                                document.write('<tr class= "pmtRowBlackBlue"><td>&nbsp;LO QRT</td>');
+                                for (var i = index-1; i >= 0; i--) {
+                                  if (ind_low_qrtl[cols[i].label] != null) {
+                                    document.write('<td class="leftJust" height="18">&nbsp;' + ind_low_qrtl[cols[i].label] + '</td>');
+                                  }
+                                  else {
+                                    document.write('<td class="leftJust" height="18">&nbsp;</td>');
+                                  }
+                                }
+                                document.write('</tr>');
+                            </script></table><br><span class="normal"> PAYDEX scores are updated daily and are based on upto 13 months of trade experiences from the Dun&amp; Bradstreet trade file.</span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <p></p>
+                  </td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="paymentsFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="150" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="120" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="84" height="1"></td>
+                  <td width="83" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="100" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'overview\');">Overview</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'histops\');">History & Operations</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'prodsrv\');">Products & Services</a>');
+</script></td>
+                  <td align="center" class="bottomnavwhite">Payments</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'finance\');">Finance</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'public\');">Public Filings</a>');
+</script></td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="paymentsSide">&nbsp;</div>
+      </div>
+      <!--## END payments ##-->
+      <!--## BEGIN BuildContentTab: finance ##-->
+      <div id="finance"><script type="text/javascript" language="Javascript1.1">setVisibility("finance",hideWord);</script><div id="financeSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(4);
+						</script></table>
+         </div>
+         <div id="financeContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top"><b>All amounts displayed within this report are in local currency.</b><br><br><table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="81%" class="sectionName" valign="middle" height="16">&nbsp;Finance<a name="Finance">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/finance.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/finance.htm')">&nbsp;About Finance</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normalBold">11/18/2017</td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="1">
+                        <tr>
+                           <td class="spacer12h">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="1">
+                        <tr>
+                           <td class="normal">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td class="normal">The name and address of this business have been confirmed by D&amp;B using available sources.</td>
+                        </tr>
+                     </table><br></td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="financeFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="150" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="120" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="84" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="83" height="1"></td>
+                  <td width="100" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'overview\');">Overview</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'histops\');">History & Operations</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'prodsrv\');">Products & Services</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'payments\');">Payments</a>');
+</script></td>
+                  <td align="center" class="bottomnavwhite">Finance</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'public\');">Public Filings</a>');
+</script></td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="financeSide">&nbsp;</div>
+      </div>
+      <!--## END finance ##-->
+      <!--## BEGIN BuildContentTab: public ##-->
+      <div id="public"><script type="text/javascript" language="Javascript1.1">setVisibility("public",hideWord);</script><div id="publicSidebar">
+            <table width="150" border="0" cellspacing="0" cellpadding="0" valign="top" background="https://www.dnb.com/sir/images/navbkgnd.gif"><script type="text/javascript" language="Javascript1.1">
+							buildSidebar(5);
+						</script></table>
+         </div>
+         <div id="publicContent">
+            <table border="0" cellspacing="0" cellpadding="0" width="602" class="whiteback">
+               <tr>
+                  <td height="12" width="602">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="whiteback" valign="top">
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr>
+                           <td colspan="3" class="sectionName" valign="middle" height="16">&nbsp;Public Filings<a name="Public_Filings">&nbsp;</a></td>
+                        </tr>
+                     </table><script type="text/javascript" language="Javascript1.1">
+	// ** PUBLIC FILINGS **
+			
+	function Judgment(award,status,docketLabel,docketNo,type,against,inFavorOf,whereFiled,statusDate,enteredDate,latestInfoLabel,latestInfoDate,comments) {
+		if (judgmentCount++ > 0)
+			document.write('<tr><td colspan="2"><hr></td></tr>');
+		if (award.length > 0)
+			document.write('<tr valign="top"><td><b>Judgment award:</b></td><td class="prdata"><b>',award,'</b></td></tr>');
+		if (status.length > 0)
+			document.write('<tr valign="top"><td><b>Status:</b></td><td class="prdata"><b>',status,'</b></td></tr>');
+		if (docketNo.length > 0)
+			document.write('<tr valign="top"><td><b>',docketLabel,':</b></td><td class="prdata">',docketNo,'</td></tr>');
+		if (type.length > 0)
+			document.write('<tr valign="top"><td><b>Judgment type:</b></td><td class="prdata">',type,'</td></tr>');
+		if (against.length > 0)
+			document.write('<tr valign="top"><td><b>Against:</b></td><td class="prdata">',against,'</td></tr>');
+		if (inFavorOf.length > 0)
+			document.write('<tr valign="top"><td><b>In favor of:</b></td><td class="prdata">',inFavorOf,'</td></tr>');
+		if (whereFiled.length > 0)
+			document.write('<tr valign="top"><td><b>Where filed:</b></td><td class="prdata">',whereFiled,'</td></tr>');
+		document.write('<tr><td colspan="2">&nbsp;</td></tr>');
+		if (statusDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date status attained:</b></td><td class="prdata">',statusDate,'</td></tr>');
+		if (enteredDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date entered:</b></td><td class="prdata">',enteredDate,'</td></tr>');
+		if (latestInfoDate.length > 0)
+			document.write('<tr valign="top"><td class="prdata"><b>',latestInfoLabel,':</b></td><td class="prdata">',latestInfoDate,'</td></tr>');
+		if (comments.length > 0)
+			document.write('<tr valign="top"><td class="prdata">&nbsp;</td><td class="prdata">',comments,'</td></tr>');
+	}
+			
+	function Suit(Amount,Status,DocketLabel,DocketNo,Plaintiff,Defendant,Cause,WhereFiled,StatusDate,FiledDate,LatestInfoLabel,LatestInfoDate,Comments) {
+		if (suitCount++ > 0)
+			document.write('<tr><td colspan="2"><hr></td></tr>');
+		if (Amount.length > 0)
+			document.write('<tr valign="top"><td><b>Suit amount:</b></td><td class="prdata"><b>',Amount,'</b></td></tr>');
+		if (Status.length > 0)
+			document.write('<tr valign="top"><td><b>Status:</b></td><td class="prdata"><b>',Status,'</b></td></tr>');
+		if (DocketNo.length > 0)
+			document.write('<tr valign="top"><td><b>',DocketLabel,':</b></td><td class="prdata">',DocketNo,'</td></tr>');
+		if (Plaintiff.length > 0)
+			document.write('<tr valign="top"><td><b>Plaintiff:</b></td><td class="prdata">',Plaintiff,'</td></tr>');
+		if (Defendant.length > 0)
+			document.write('<tr valign="top"><td><b>Defendant:</b></td><td class="prdata">',Defendant,'</td></tr>');
+		if (Cause.length > 0)
+			document.write('<tr valign="top"><td><b>Cause:</b></td><td class="prdata">',Cause,'</td></tr>');
+		if (WhereFiled.length > 0)
+			document.write('<tr valign="top"><td><b>Where filed:</b></td><td class="prdata">',WhereFiled,'</td></tr>');
+		document.write('<tr><td colspan="2">&nbsp;</td></tr>');
+		if (StatusDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date status attained:</b></td><td class="prdata">',StatusDate,'</td></tr>');
+		if (FiledDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date filed:</b></td><td class="prdata">',FiledDate,'</td></tr>');
+		if (LatestInfoDate.length > 0)
+			document.write('<tr valign="top"><td><b>',LatestInfoLabel,':</b></td><td class="prdata">',LatestInfoDate,'</td></tr>');
+		if (Comments.length > 0)
+			document.write('<tr valign="top"><td>&nbsp;</td><td class="prdata">',Comments,'</td></tr>');
+	}
+
+	function Lien(Amount,Status,DocketLabel,DocketNo,Type,FiledBy,Against,WhereFiled,StatusDate,FiledDate,LatestInfoLabel,LatestInfoDate,Comments) {
+		if (lienCount++ > 0)
+			document.write('<tr><td colspan="2"><hr></td></tr>');
+		if (Amount.length > 0)
+			document.write('<tr valign="top"><td><b>Amount:</b></td><td class="prdata"><b>',Amount,'</b></td></tr>');
+		if (Status.length > 0)
+			document.write('<tr valign="top"><td><b>Status:</b></td><td class="prdata"><b>',Status,'</b></td></tr>');
+		if (DocketNo.length > 0)
+			document.write('<tr valign="top"><td><b>',DocketLabel,':</b></td><td class="prdata">',DocketNo,'</td></tr>');
+		if (Type.length > 0)
+			document.write('<tr valign="top"><td><b>Type:</b></td><td class="prdata">',Type,'</td></tr>');
+		if (FiledBy.length > 0)
+			document.write('<tr valign="top"><td><b>Filed by:</b></td><td class="prdata">',FiledBy,'</td></tr>');
+		if (Against.length > 0)
+			document.write('<tr valign="top"><td><b>Against:</b></td><td class="prdata">',Against,'</td></tr>');
+		if (WhereFiled.length > 0)
+			document.write('<tr valign="top"><td><b>Where filed:</b></td><td class="prdata">',WhereFiled,'</td></tr>');
+		document.write('<tr><td colspan="2">&nbsp;</td></tr>');
+		if (StatusDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date status attained:</b></td><td class="prdata">',StatusDate,'</td></tr>');
+		if (FiledDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date filed:</b></td><td class="prdata">',FiledDate,'</td></tr>');
+		if (LatestInfoDate.length > 0)
+			document.write('<tr valign="top"><td><b>',LatestInfoLabel,':</b></td><td class="prdata">',LatestInfoDate,'</td></tr>');
+		if (Comments.length > 0)
+			document.write('<tr valign="top"><td>&nbsp;</td><td class="prdata">',Comments,'</td></tr>');
+	}
+
+	function UCC(Collateral,Type,SecuredParty,Assignee,Debtor,FilingNo,FiledWith,FiledDate,LatestInfoLabel,LatestInfoDate,OriginalUCCFiledDate,OriginalFilingNo,Comments) {
+		if (uccCount++ > 0)
+			document.write('<tr><td colspan="2"><hr></td></tr>');
+		if (Collateral.length > 0)
+			document.write('<tr valign="top"><td><b>Collateral:</b></td><td class="prdata">',Collateral,'</td></tr>');
+		if (Type.length > 0)
+			document.write('<tr valign="top"><td><b>Type:</b></td><td class="prdata">',Type,'</td></tr>');
+		if (SecuredParty.length > 0)
+			document.write('<tr valign="top"><td><b>Sec. party:</b></td><td class="prdata">',SecuredParty,'</td></tr>');
+		if (Assignee.length > 0)
+			document.write('<tr valign="top"><td><b>Assignee:</b></td><td class="prdata">',Assignee,'</td></tr>');
+		if (Debtor.length > 0)
+			document.write('<tr valign="top"><td><b>Debtor:</b></td><td class="prdata">',Debtor,'</td></tr>');
+		if (FilingNo.length > 0)
+			document.write('<tr valign="top"><td><b>Filing number:</b></td><td class="prdata">',FilingNo,'</td></tr>');
+		if (FiledWith.length > 0)
+			document.write('<tr valign="top"><td><b>Filed with:</b></td><td class="prdata">',FiledWith,'</td></tr>');
+		document.write('<tr><td colspan="2">&nbsp;</td></tr>');
+		if (FiledDate.length > 0)
+			document.write('<tr valign="top"><td><b>Date filed:</b></td><td class="prdata">',FiledDate,'</td></tr>');
+		if (LatestInfoDate.length > 0)
+			document.write('<tr valign="top"><td><b>',LatestInfoLabel,':</b></td><td class="prdata">',LatestInfoDate,'</td></tr>');
+		if (OriginalUCCFiledDate.length > 0)
+			document.write('<tr valign="top"><td><b>Original UCC filed date:</b></td><td class="prdata">',OriginalUCCFiledDate,'</td></tr>');
+		if (OriginalFilingNo.length > 0)
+			document.write('<tr valign="top"><td><b>Original filing no.:</b></td><td class="prdata">',OriginalFilingNo,'</td></tr>');
+		if (Comments.length > 0)
+			document.write('<tr valign="top"><td>&nbsp;</td><td class="prdata">',Comments,'</td></tr>');
+	}
+</script><table width="602" border="0" cellspacing="0" cellpadding="0" cols="2">
+                        <tr>
+                           <td width="30%" height="1">&nbsp;</td>
+                           <td width="70%" height="1">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top" class="finePrint">The following Public Filing data is for information purposes only and is not the official record. Certified copies can only
+                              be obtained from the official source.
+                              <p>&nbsp;</p>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="77%" class="sectionName" valign="middle" height="16">&nbsp;UCC Filings<a name="UCC_Filings">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/public_filings_US.htm#ucc')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/public_filings_US.htm#ucc')">&nbsp;About UCC Filings</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="2">
+                        <tr>
+                           <td width="30%" height="1">&nbsp;</td>
+                           <td width="70%" height="1">&nbsp;</td>
+                        </tr><script type="text/javascript" language="Javascript">
+UCC("All Assets including proceeds and products - All Inventory including proceeds and products - All Account(s) including proceeds and products - All Computer equipment including proceeds and products - and OTHERS","Original","BANK OF AMERICA, N.A., SAINT LOUIS, MO&nbsp;","","JORLINK USA, INC.&nbsp;","20120046028G","SECRETARY OF STATE/UCC DIVISION, RALEIGH, NC","05/16/2012","Latest Info Received","06/18/2012","","","");
+UCC("","Continuation","BANK OF AMERICA, N.A., SAINT LOUIS, MO&nbsp;","","JORLINK USA, INC.&nbsp;","20160116086B","SECRETARY OF STATE/UCC DIVISION, RALEIGH, NC","11/21/2016","Latest Info Received","11/27/2016","05/16/2012","20120046028G","");</script><tr>
+                           <td colspan="2" height="20">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0" cols="2">
+                        <tr class="bottomPad20">
+                           <td colspan="2" class="finePrint">The public record items contained in this report may have been paid, terminated, vacated or released prior to the date this
+                              report was printed.
+                              <p>&nbsp;</p>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" cellpadding="0" cellspacing="0" border="0" cols="3">
+                        <tr><td width="69%" class="sectionName" valign="middle" height="16">&nbsp;Government Activity<a name="Government_Activity">&nbsp;</a></td>
+                           <td class="sectionHelpButton" width="16"><a href="javascript:openHelp('https://www.dnb.com/sir/help/govt_activity.htm')"><img src="https://www.dnb.com/sir/images/help_button.gif" border="0" height="16" width="16" align="middle"></a></td>
+                           <td align="right" valign="middle" bgcolor="#ffffff">
+                              <nobr><a class="sectionAbout" href="javascript:openHelp('https://www.dnb.com/sir/help/govt_activity.htm')">&nbsp;About Government Activity</a></nobr>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="602" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                           <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" class="normalBold">Activity summary</td>
+                        </tr>
+                        <tr valign="top">
+                           <td width="10%" class="normal">&nbsp;</td>
+                           <td width="50%" class="normal">Borrower (Dir/Guar):</td>
+                           <td width="40%" class="normal">NO</td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="normal">&nbsp;</td>
+                           <td class="normal">Administrative debt:</td>
+                           <td class="normal">NO</td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="normal">&nbsp;</td>
+                           <td class="normal">Contractor:</td>
+                           <td class="normal">YES</td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="normal">&nbsp;</td>
+                           <td class="normal">Grantee:</td>
+                           <td class="normal">NO</td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="normal">&nbsp;</td>
+                           <td class="normal" nowrap>Party excluded from federal program(s):&nbsp;&nbsp;</td>
+                           <td class="normal">NO</td>
+                        </tr>
+                        <tr valign="top">
+                           <td class="normal">&nbsp;</td>
+                           <td class="normal" nowrap>Congressional District:&nbsp;&nbsp;</td>
+                           <td class="normal">12</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" class="finePrint">The details provided in the Government Activity section are as reported to Dun &amp; Bradstreet by the federal government and
+                              other sources.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3">&nbsp;</td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td height="12">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="publicFooter">
+            <table height="1" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="1">
+                  <td height="1" width="150"><img src="https://www.dnb.com/sir/images/trans.gif" width="150" height="1"></td>
+                  <td height="1" width="623"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" border="0" height="1" width="623"></td>
+                  <td height="1" width="15" class="blueback"><img src="https://www.dnb.com/sir/images/trans.gif" width="15" height="1"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr>
+                  <td width="151" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="80" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="150" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="120" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="84" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="83" height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+                  <td width="100" height="1"></td>
+                  <td width="15" class="blueback" rowspan="4">&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomnav" height="15">&nbsp;</td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'overview\');">Overview</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'histops\');">History & Operations</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'prodsrv\');">Products & Services</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'payments\');">Payments</a>');
+</script></td>
+                  <td align="center" class="bottomnav"><script type="text/javascript" language="Javascript1.1">
+	document.writeln('<a href="#TOP" onclick="return showtab(\'finance\');">Finance</a>');
+</script></td>
+                  <td align="center" class="bottomnavwhite">Public Filings</td>
+               </tr>
+               <tr>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#cccccc"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1"></td>
+                  <td height="1" bgcolor="#003366"><img src="https://www.dnb.com/sir/images/pixel_003366.gif" height="1" width="1"></td>
+               </tr>
+               <tr>
+                  <td colspan="7" class="bottomnav" height="3"><img src="https://www.dnb.com/sir/images/pixel_CCCCCC.gif" height="1" width="1" border="0"></td>
+               </tr>
+            </table>
+            <table width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr class="whiteback" valign="bottom">
+                  <td class="bottomLinksNav"></td>
+                  <td class="bottomLinksNavPale"><a href="javascript:printerFriendly(true)">Print Entire Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaEmailReport()">E-mail Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:printerFriendly()">Save HTML Report</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"><a href="javascript:dbiaInvestigation()">Order an Investigation</a><img src="https://www.dnb.com/sir/images/spacer.gif" width="15"></td>
+                  <td width="15" class="blueback">&nbsp;</td>
+               </tr>
+            </table>
+            <table class="blueback" width="788" border="0" cellspacing="0" cellpadding="0">
+               <tr height="15">
+                  <td>&nbsp;</td>
+               </tr>
+               <tr>
+                  <td class="bottomCopyright" align="center">Copyright 2017 Dun &amp; Bradstreet - Provided under contract for the exclusive use of subscriber 263159923</td>
+               </tr>
+               <tr>
+                  <td height="15">&nbsp;</td>
+               </tr>
+            </table>
+         </div>
+         <div id="publicSide">&nbsp;</div>
+      </div>
+      <!--## END public ##--><script type="text/javascript" language="Javascript1.1">
+					// this is only here to force a line break
+				</script><FORM name="MonitoringForm" action="/scripts/ProductRetriever.asp" method="POST"><INPUT type="hidden" name="REQUESTTYPE" value="SENDCONTINUOUSMONITORINGPAGE"><INPUT type="hidden" name="PROCESSFLOW" value="CORPT"><INPUT type="hidden" name="PRODUCTNAME" value="Supplier Qualifier Report"><INPUT type="hidden" name="CMRETURNDUNS" value="None"><INPUT type="hidden" name="SESSIONID" value="#"><INPUT type="hidden" name="DUNSNUMBER"><INPUT type="hidden" name="COMPANYNAME"><INPUT type="hidden" name="ABBREVCOMPANYNAME"><INPUT type="hidden" name="CMID"></FORM><script type="text/javascript" language="Javascript1.1">
+					// this is only here to force a line break
+				</script><FORM name="InvestigationForm" action="/scripts/ProductRetriever.asp" method="POST"><INPUT type="hidden" name="REQUESTTYPE" value="INVESTIGATESTATIC"><INPUT type="hidden" name="PROCESSFLOW" value="CORPT"><INPUT type="hidden" name="CMRETURNDUNS" value="None"><INPUT type="hidden" name="SESSIONID" value="#"><INPUT type="hidden" name="COMPANYNAME"><INPUT type="hidden" name="COMPANYADDRESS"><INPUT type="hidden" name="COMPANYCITY"><INPUT type="hidden" name="COMPANYSTATE"><INPUT type="hidden" name="COMPANYPHONE"><INPUT type="hidden" name="INVESTDUNSNUMBER"><INPUT type="hidden" name="INVESTCOMPANYNAME"><INPUT type="hidden" name="INVESTCOMPANYADDRESS"><INPUT type="hidden" name="INVESTCOMPANYCITY"><INPUT type="hidden" name="INVESTCOMPANYSTATE"><INPUT type="hidden" name="INVESTCOMPANYPHONE"><INPUT type="hidden" name="OIWebfab" value="Y"></FORM><script type="text/javascript" language="Javascript1.1">
+					window.onload = init;
+					if (isNav) {
+						window.captureEvents(Event.RESIZE);
+					}	
+					window.onresize = handleResize;
+				</script><script language="Javascript1.1">
+					if(typeof cmSiteUp == "string" && cmSiteUp == "Y")
+					{
+                                    
+						cmCreatePageviewTag("DBIA: SQR DISPLAY");
+                                        
+					}
+				</script><div style="display:none"><img src="https://www.dnb.com/sir/images/t_overview_off3.gif"><img src="https://www.dnb.com/sir/images/t_overview_roll3.gif"><img src="https://www.dnb.com/sir/images/t_histops_off3.gif"><img src="https://www.dnb.com/sir/images/t_histops_roll3.gif"><img src="https://www.dnb.com/sir/images/t_prodsrv_off3.gif"><img src="https://www.dnb.com/sir/images/t_prodsrv_roll3.gif"><img src="https://www.dnb.com/sir/images/t_payments_off3.gif"><img src="https://www.dnb.com/sir/images/t_payments_roll3.gif"><img src="https://www.dnb.com/sir/images/t_finance_off3.gif"><img src="https://www.dnb.com/sir/images/t_finance_roll3.gif"><img src="https://www.dnb.com/sir/images/t_public_off3.gif"><img src="https://www.dnb.com/sir/images/t_public_roll3.gif"><img src="https://www.dnb.com/sir/images/square_FFFFFF.gif"><img src="https://www.dnb.com/sir/images/square_FFCC00.gif"><img src="https://www.dnb.com/sir/images/arrow_FFCC00.gif"></div>
+   </body>
+</html>
