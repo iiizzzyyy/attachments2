@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=MackQ-Jorlink:MAILTO:mackenzie@jorlink.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Customer S
+ upport:MAILTO:support@jorlink.com
+DESCRIPTION;LANGUAGE=en-US:Your Name\nBernadine Simpson\nCompany Name\nSouv
+ enir Supplies Ltd.\nYour Mobile or Landline\n+1 (876) 344-4039\nProblem-Sy
+ mptoms\npoor quality print. Unable to re-install software on both machines
+  after computer crash. Computer is windows 10 Pro\nAttach Problem-Sample F
+ ile\nLaser print sample sept 2019.jpg<https://app.oncehub.com/scheduleonce
+ /secureattachment.aspx?AttachmentName=eRMDFkL1582MuQ%2fjdavdA0eVccrIj85nrF
+ 7mOh0iO5ite9wkGwX8CU3Ub8trR8zJFfXP9PapVQslNflYhqjJ3g%3d%3d&CustomFieldInfo
+ rmationID=FzKDQ01xEoQ%3d&meetingId=Z0aOaj%2b5Q%2bklpMB5uXJKdg%3d%3d>\nPrio
+ rity-Urgency\n1-High Priority (Critical Business Impact\, Equipment Down)\
+ nProduct Model & Serial #\nME-40V Mercury III L95138\, ME-30V New Mercury 
+ J51686\n\n\nFrom: OnceHub Mailer <mailer@oncehub.com>\nReply-To: Bernadine
+  Simpson <souvenir@cwjamaica.com>\nDate: Wednesday\, September 4\, 2019 at
+  12:24 PM\nTo: Mackenzie Quiros <mackenzie@jorlink.com>\nSubject: SCHEDULE
+ D: Bernadine Simpson from Souvenir Supplies Ltd. meeting Mackenzie - Diagn
+ ostic Call- 1 Event-Case Session\n\n\nBernadine Simpson has made a booking
+ \n[Booking page image]\nBernadine Simpson (souvenir@cwjamaica.com) from So
+ uvenir Supplies Ltd. has made a booking. Please see below for more informa
+ tion.\nPayment information\nA payment of 75.00 USD has been made.\n\n[http
+ s://static.scheduleonce.com/images/email/bookingDetailsIcon.jpg]\n\n\n\n\n
+ \nBooking details\nEvent type\nDiagnostic Call- 1 Event-Case Session (75.0
+ 0 USD) (Customer Support - Technical Issues)\nBooking page\nMackenzieQuiro
+ s\nCalendar\nCalendar\nYour time\nWed\, Sep 11\, 2019\, 02:45 PM - 04:00 P
+ M\nUnited States\; Eastern time (GMT-4:00) [DST]\nCustomer time\nWed\, Sep
+  11\, 2019\, 01:45 PM - 03:00 PM\nJamaica\; Kingston (GMT-5:00)\nTracking 
+ ID\nCCE401AC\n\n[https://static.scheduleonce.com/images/email/crmIcon.jpg]
+ \n\n\n\n\n\nCRM data\nSalesforce contact<https://jorlink.my.salesforce.com
+ /0030a00002DKXV9AAP>\nSalesforce activity<https://jorlink.my.salesforce.co
+ m/00U0a00000JugtnEAB>\n\n[https://static.scheduleonce.com/images/email/inf
+ ormationIcon.jpg]\n\n\n\n\n\nAdditional details\nYour Name\nBernadine Simp
+ son\nCompany Name\nSouvenir Supplies Ltd.\nYour Mobile or Landline\n+1 (87
+ 6) 344-4039\nProblem-Symptoms\npoor quality print. Unable to re-install so
+ ftware on both machines after computer crash. Computer is windows 10 Pro\n
+ Attach Problem-Sample File\nLaser print sample sept 2019.jpg<https://app.o
+ ncehub.com/scheduleonce/secureattachment.aspx?AttachmentName=eRMDFkL1582Mu
+ Q%2fjdavdA0eVccrIj85nrF7mOh0iO5ite9wkGwX8CU3Ub8trR8zJFfXP9PapVQslNflYhqjJ3
+ g%3d%3d&CustomFieldInformationID=FzKDQ01xEoQ%3d&meetingId=Z0aOaj%2b5Q%2bkl
+ pMB5uXJKdg%3d%3d>\nPriority-Urgency\n1-High Priority (Critical Business Im
+ pact\, Equipment Down)\nProduct Model & Serial #\nME-40V Mercury III L9513
+ 8\, ME-30V New Mercury J51686\nWas equipment purchased from Jorlink?\nNo-O
+ ther Manufacturer's Distributor\n\n
+UID:040000008200E00074C5B7101A82E008000000006C520B73FC63D501000000000000000
+ 010000000431FE88FA1A5964B97A4981282716255
+SUMMARY;LANGUAGE=en-US:SCHEDULED: Bernadine Simpson from Souvenir Supplies 
+ Ltd. meeting Mackenzie - Diagnostic Call- 1 Event-Case Session
+DTSTART;TZID=Eastern Standard Time:20190910T144500
+DTEND;TZID=Eastern Standard Time:20190910T154500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20190907T142649Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:Call Bernadine @ 1 (876) 344-4039
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2117676908
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Call Bernadine @ 1 (876) 344-4039
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Call Bernadine @ 1 (876) 344-4039"\,
+ "LocationAnnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationC
+ ity":""\,"LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""
+ \,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT10M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
